@@ -65,6 +65,12 @@
       "description": "Meal prep containers with healthy food.",
       "imageUrl": "https://i.postimg.cc/44ScZwYJ/hq720-1.jpg",
       "imageHint": "meal prep"
+    },
+    {
+      "id": "sobremesas-zero-acucar",
+      "description": "A healthy strawberry mousse.",
+      "imageUrl": "https://i.postimg.cc/8Pv7GGQz/mousse-fit-de-morango-1140x622.png",
+      "imageHint": "strawberry mousse"
     }
   ]
 }

@@ -11,7 +11,7 @@ const bonuses = [
     title: "200 Sobremesas Zero Açúcar",
     description: "Para matar a vontade de doce sem culpa!",
     tag: "Grátis!",
-    imageId: null,
+    imageId: "sobremesas-zero-acucar",
   },
   {
     icon: <Box className="w-10 h-10 text-primary" />,
