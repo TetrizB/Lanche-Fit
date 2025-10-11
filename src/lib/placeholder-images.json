@@ -3,8 +3,8 @@
     {
       "id": "hero-image",
       "description": "A beautiful breakfast spread with pancakes, fruits, and coffee.",
-      "imageUrl": "https://picsum.photos/seed/1/1200/800",
-      "imageHint": "pancakes fruit"
+      "imageUrl": "https://picsum.photos/seed/11/1200/800",
+      "imageHint": "breakfast spread"
     },
     {
       "id": "maria-aguiar-smiling",
