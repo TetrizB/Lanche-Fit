@@ -15,7 +15,7 @@ export function Footer() {
             Política de Privacidade
           </Link>
         </div>
-        <p>© {new Date().getFullYear()} — Maria Aguiar Nutrição Funcional</p>
+        <p>© {new Date().getFullYear()} — Laura Costa Nutrição Funcional</p>
       </div>
     </footer>
   );

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function BigIdea() {
   const nutritionistImage = PlaceHolderImages.find(
-    (img) => img.id === "maria-aguiar-smiling"
+    (img) => img.id === "laura-costa-smiling"
   );
   return (
     <section className="py-16 lg:py-24">

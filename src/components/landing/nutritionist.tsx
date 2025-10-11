@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export function Nutritionist() {
   const nutritionistImage = PlaceHolderImages.find(
-    (img) => img.id === "maria-aguiar-portrait"
+    (img) => img.id === "laura-costa-portrait"
   );
   return (
     <section className="py-16 lg:py-24">
@@ -28,7 +28,7 @@ export function Nutritionist() {
               Quem é a Nutricionista?
             </h2>
             <p className="text-lg text-muted-foreground mb-2">
-              Prazer, sou a Maria Aguiar.
+              Prazer, sou a Laura Costa.
             </p>
             <p className="text-lg text-muted-foreground mb-8">
               Sou nutricionista funcional e criei este cardápio para mostrar que
