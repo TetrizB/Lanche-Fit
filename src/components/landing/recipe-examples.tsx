@@ -47,8 +47,8 @@ export function RecipeExamples() {
                     <Image
                       src={image.imageUrl}
                       alt={recipe.name}
-                      width={1200}
-                      height={676}
+                      width={300}
+                      height={283}
                       className="object-cover w-full h-full"
                       data-ai-hint={image.imageHint}
                     />

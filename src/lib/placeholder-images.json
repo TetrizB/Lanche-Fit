@@ -3,7 +3,7 @@
     {
       "id": "hero-image",
       "description": "A beautiful breakfast spread with pancakes, fruits, and coffee.",
-      "imageUrl": "https://picsum.photos/seed/11/1200/800",
+      "imageUrl": "https://picsum.photos/seed/hero/1200/800",
       "imageHint": "breakfast spread"
     },
     {
@@ -15,7 +15,7 @@
     {
       "id": "panqueca-fit-banana",
       "description": "Healthy banana pancakes.",
-      "imageUrl": "https://picsum.photos/seed/3/400/300",
+      "imageUrl": "https://i.postimg.cc/MTPbRSdT/fec84e0a9389fdc006a7dde8e0b3fee1-1-300x283.webp",
       "imageHint": "banana pancake"
     },
     {
