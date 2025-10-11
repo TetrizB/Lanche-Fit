@@ -15,12 +15,8 @@ export function Guarantee() {
               Sua Satisfação ou Seu Dinheiro de Volta
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Teste por 7 dias sem compromisso. Se por qualquer motivo você não
-              amar as receitas e a praticidade que elas trazem para sua vida,
-              basta nos enviar um e-mail. Devolvemos 100% do seu dinheiro, sem
-              perguntas e sem burocracia. E o melhor:{" "}
-              <strong>você ainda fica com todo o material.</strong> O risco é
-              todo nosso.
+              Teste por 7 dias e se não gostar, devolvemos seu dinheiro na hora e
+              você ainda fica com o produto! O risco é todo nosso.
             </p>
              <Link href="#offer">
               <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
