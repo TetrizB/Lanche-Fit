@@ -27,7 +27,7 @@ export function BigIdea() {
                 alt={nutritionistImage.description}
                 width={400}
                 height={400}
-                className="rounded-full aspect-square object-cover shadow-lg"
+                className="rounded-lg aspect-square object-cover shadow-lg"
                 data-ai-hint={nutritionistImage.imageHint}
               />
             </div>
