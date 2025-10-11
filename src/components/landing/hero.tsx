@@ -26,7 +26,7 @@ export function Hero() {
             Transforme suas manhãs com 200 cafés da manhã saudáveis (e
             deliciosos de verdade)
           </h1>
-          <p className="text-lg md:text-xl mb-8">
+          <p className="text-lg md:text-xl mb-8 p-2 rounded-md bg-background/70 dark:bg-background/50 font-medium">
             Receitas criadas por uma nutricionista funcional para emagrecer,
             ganhar energia e saborear cada manhã.
           </p>
