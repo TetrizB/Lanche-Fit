@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Lock } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 
 export function Offer() {
   return (
@@ -14,10 +15,16 @@ export function Offer() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="text-xl text-muted-foreground mb-8">
+            <p className="text-xl text-muted-foreground mb-4">
               <span className="line-through">De R$129,00</span> por apenas 12x de R$2,99 ou R$29,90 à vista. Acesso
               imediato no seu e-mail e WhatsApp.
             </p>
+             <Badge
+              variant="destructive"
+              className="mb-8 text-base font-semibold"
+            >
+              Oferta válida até 21 de Outubro!
+            </Badge>
             <Button size="lg" className="text-xl font-bold px-12 py-8 w-full md:w-auto transition-transform hover:scale-105 shadow-lg">
               Quero minhas 200 receitas agora!
             </Button>
