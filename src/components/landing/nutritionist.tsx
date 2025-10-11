@@ -16,7 +16,7 @@ export function Nutritionist() {
                 alt={nutritionistImage.description}
                 width={400}
                 height={400}
-                className="rounded-lg object-cover shadow-lg aspect-square"
+                className="rounded-full object-cover shadow-lg aspect-square"
                 data-ai-hint={nutritionistImage.imageHint}
               />
             </div>
