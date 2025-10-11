@@ -1,5 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CakeSlice, Box, GlassWater } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const bonuses = [
   {
@@ -32,7 +34,7 @@ export function Bonuses() {
         <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
           Comprando hoje o e-book "200 Cafés da Manhã de Nutri", você recebe gratuitamente mais 3 materiais completos.
         </p>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 mb-12">
           {bonuses.map((bonus, index) => (
             <Card key={index} className="text-center shadow-lg">
               <CardHeader>
@@ -50,9 +52,14 @@ export function Bonuses() {
             </Card>
           ))}
         </div>
-        <p className="mt-12 text-lg font-semibold">
+        <p className="mb-12 text-lg font-semibold">
           Somando <span className="text-primary-foreground font-bold">R$73,00 em bônus</span> totalmente gratuitos — só hoje!
         </p>
+        <Link href="#offer">
+          <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
+            Quero minhas receitas
+          </Button>
+        </Link>
       </div>
     </section>
   );

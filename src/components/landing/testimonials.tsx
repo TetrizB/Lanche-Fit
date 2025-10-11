@@ -2,6 +2,8 @@ import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const testimonials = [
   {
@@ -19,11 +21,11 @@ const testimonials = [
 export function Testimonials() {
   return (
     <section className="py-16 lg:py-24 bg-secondary">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-headline font-bold text-center mb-12">
           O que nossas alunas estão dizendo
         </h2>
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
           {testimonials.map((testimonial) => {
             const image = PlaceHolderImages.find(
               (img) => img.id === testimonial.id
@@ -38,7 +40,7 @@ export function Testimonials() {
                     </Avatar>
                     <p className="font-semibold text-lg">{testimonial.name}</p>
                   </div>
-                  <p className="text-muted-foreground text-lg">
+                  <p className="text-muted-foreground text-lg text-left">
                     “{testimonial.quote}”
                   </p>
                 </CardContent>
@@ -46,6 +48,11 @@ export function Testimonials() {
             );
           })}
         </div>
+        <Link href="#offer">
+          <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
+            Quero minhas receitas
+          </Button>
+        </Link>
       </div>
     </section>
   );

@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export function BigIdea() {
   const nutritionistImage = PlaceHolderImages.find(
@@ -13,12 +15,17 @@ export function BigIdea() {
             <h2 className="text-4xl font-headline font-bold mb-4">
               A revolução do café da manhã saudável (sem gosto de dieta!)
             </h2>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg text-muted-foreground mb-8">
               Coma bem e sinta-se leve com receitas que unem nutrição e prazer —
               feitas em até 15 minutos. Chega de sofrer com dietas restritivas.
               É hora de transformar sua relação com a comida, começando pela
               refeição mais importante do dia.
             </p>
+            <Link href="#offer">
+              <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
+                Quero minhas receitas
+              </Button>
+            </Link>
           </div>
           {nutritionistImage && (
             <div className="flex justify-center">

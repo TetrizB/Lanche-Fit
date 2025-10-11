@@ -6,6 +6,8 @@ import {
   Blend,
   CookingPot,
 } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const features = [
   {
@@ -37,11 +39,11 @@ const features = [
 export function Features() {
   return (
     <section className="py-16 lg:py-24 bg-secondary">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-headline font-bold text-center mb-12">
+      <div className="container mx-auto px-4 text-center">
+        <h2 className="text-4xl font-headline font-bold mb-12">
           O Que Você Vai Encontrar
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-center mb-12">
           {features.map((feature, index) => (
             <div key={index} className="flex flex-col items-center">
               <div className="bg-primary rounded-full p-4 mb-4">
@@ -51,6 +53,11 @@ export function Features() {
             </div>
           ))}
         </div>
+        <Link href="#offer">
+          <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
+            Quero minhas receitas
+          </Button>
+        </Link>
       </div>
     </section>
   );

@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export function Nutritionist() {
   const nutritionistImage = PlaceHolderImages.find(
@@ -28,12 +30,17 @@ export function Nutritionist() {
             <p className="text-lg text-muted-foreground mb-2">
               Prazer, sou a Maria Aguiar.
             </p>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg text-muted-foreground mb-8">
               Sou nutricionista funcional e criei este cardápio para mostrar que
               comer bem pode — e deve — ter sabor. Depois de anos atendendo
               pessoas que odiavam ‘comida de dieta’, resolvi provar que dá pra
               emagrecer comendo bem e sem complicação.
             </p>
+            <Link href="#offer">
+              <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
+                Quero minhas receitas
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

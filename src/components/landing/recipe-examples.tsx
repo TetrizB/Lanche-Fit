@@ -2,6 +2,8 @@ import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const recipes = [
   {
@@ -33,11 +35,11 @@ const recipes = [
 export function RecipeExamples() {
   return (
     <section className="py-16 lg:py-24">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-headline font-bold text-center mb-12">
           Receitas rápidas, leves e irresistíveis
         </h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {recipes.map((recipe) => {
             const image = PlaceHolderImages.find((img) => img.id === recipe.id);
             return (
@@ -67,6 +69,11 @@ export function RecipeExamples() {
             );
           })}
         </div>
+        <Link href="#offer">
+          <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
+            Quero minhas receitas
+          </Button>
+        </Link>
       </div>
     </section>
   );

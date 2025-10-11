@@ -3,7 +3,7 @@ import { Lock } from "lucide-react";
 
 export function Offer() {
   return (
-    <section className="py-16 lg:py-24">
+    <section id="offer" className="py-16 lg:py-24 scroll-mt-20">
       <div className="container mx-auto px-4 text-center">
         <div className="max-w-2xl mx-auto">
           <p className="text-xl font-semibold mb-2">Acesso completo e imediato por um preço especial</p>

@@ -1,4 +1,6 @@
 import { ShieldCheck } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export function Guarantee() {
   return (
@@ -12,7 +14,7 @@ export function Guarantee() {
             <h2 className="text-3xl font-headline font-bold mb-4">
               Sua Satisfação ou Seu Dinheiro de Volta
             </h2>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg text-muted-foreground mb-8">
               Teste por 7 dias sem compromisso. Se por qualquer motivo você não
               amar as receitas e a praticidade que elas trazem para sua vida,
               basta nos enviar um e-mail. Devolvemos 100% do seu dinheiro, sem
@@ -20,6 +22,11 @@ export function Guarantee() {
               <strong>você ainda fica com todo o material.</strong> O risco é
               todo nosso.
             </p>
+             <Link href="#offer">
+              <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
+                Quero minhas receitas
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
