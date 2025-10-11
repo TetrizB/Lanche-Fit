@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Badge } from "@/components/ui/badge";
+import Link from "next/link";
 
 export function Hero() {
   const heroImage = PlaceHolderImages.find((img) => img.id === "hero-image");
@@ -30,9 +31,11 @@ export function Hero() {
             ganhar energia e saborear cada manhã.
           </p>
           <div className="flex flex-col items-center gap-4">
-            <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
-              Quero minhas receitas agora
-            </Button>
+            <Link href="#offer">
+              <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
+                Quero minhas receitas agora
+              </Button>
+            </Link>
             <Badge variant="secondary" className="bg-secondary/80 backdrop-blur-sm">
               Acesso imediato + garantia de 7 dias
             </Badge>
