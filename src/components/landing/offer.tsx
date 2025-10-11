@@ -10,15 +10,14 @@ export function Offer() {
         <Card className="max-w-3xl mx-auto text-center p-6 sm:p-8 lg:p-12 shadow-2xl">
           <CardHeader>
             <p className="text-xl font-semibold mb-2 text-primary">Acesso completo e imediato</p>
-            <CardTitle className="text-5xl md:text-6xl font-headline font-bold">
-              Tudo isso por apenas R$29,90
+             <p className="text-2xl text-muted-foreground mb-4">
+              <span className="line-through">De R$129,00</span> por apenas:
+            </p>
+            <CardTitle className="text-5xl md:text-7xl font-headline font-bold">
+               R$29,90
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="text-xl text-muted-foreground mb-4">
-              <span className="line-through">De R$129,00</span> por apenas 12x de R$2,99 ou R$29,90 à vista. Acesso
-              imediato no seu e-mail e WhatsApp.
-            </p>
              <Badge
               variant="destructive"
               className="mb-8 text-base font-semibold"
@@ -32,6 +31,9 @@ export function Offer() {
               <Lock className="w-4 h-4" />
               <span>Pagamento 100% seguro</span>
             </div>
+             <p className="text-sm text-muted-foreground mt-4">
+              Acesso imediato no seu e-mail e WhatsApp.
+            </p>
           </CardContent>
         </Card>
       </div>
