@@ -25,7 +25,7 @@ const bonuses = [
     title: "60 Sucos Detox Saborosos",
     description: "Para desintoxicar e dar mais energia ao seu dia.",
     tag: "Grátis!",
-    imageId: null,
+    imageId: "sucos-detox",
   },
 ];
 

@@ -71,6 +71,12 @@
       "description": "A healthy strawberry mousse.",
       "imageUrl": "https://i.postimg.cc/8Pv7GGQz/mousse-fit-de-morango-1140x622.png",
       "imageHint": "strawberry mousse"
+    },
+    {
+      "id": "sucos-detox",
+      "description": "A glass of green detox juice.",
+      "imageUrl": "https://i.postimg.cc/2Sfxvmn9/Receitas-de-Suco-Detox.webp",
+      "imageHint": "detox juice"
     }
   ]
 }
