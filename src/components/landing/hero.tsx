@@ -22,7 +22,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-white/50 dark:bg-black/50" />
       <div className="relative container mx-auto px-4 z-10 text-foreground">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-headline font-bold text-foreground mb-4">
+          <h1 className="text-4xl md:text-6xl font-headline font-bold text-foreground mb-4 inline-block p-2 rounded-md bg-background/70 dark:bg-background/50">
             Transforme suas manhãs com 200 cafés da manhã saudáveis (e
             deliciosos de verdade)
           </h1>
