@@ -26,6 +26,9 @@ export function Offer() {
             </div>
           )}
           <CardHeader className="pt-0">
+            <h2 className="text-3xl font-headline font-bold mb-4">
+              200 LANCHES FIT DE NUTRI (COM SABOR)
+            </h2>
             <p className="text-xl font-semibold mb-2 text-primary">
               Acesso completo e imediato
             </p>
