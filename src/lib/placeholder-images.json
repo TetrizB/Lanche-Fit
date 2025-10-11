@@ -45,13 +45,13 @@
     {
       "id": "testimonial-juliana",
       "description": "Portrait of Juliana, a happy customer.",
-      "imageUrl": "https://i.postimg.cc/BvWMm4TB/Design-sem-nome-2.png",
+      "imageUrl": "https://i.postimg.cc/FHrYvTM8/311291156-8559073380784229-2950273760955178605-n.jpg",
       "imageHint": "woman selfie"
     },
     {
       "id": "testimonial-carla",
       "description": "Portrait of Carla, a happy customer.",
-      "imageUrl": "https://picsum.photos/seed/9/100/100",
+      "imageUrl": "https://i.postimg.cc/zGzyNxsM/438239941-1626176964818137-5158603969524857524-n.jpg",
       "imageHint": "woman happy"
     },
     {
@@ -81,7 +81,7 @@
     {
       "id": "testimonial-mariana",
       "description": "Portrait of Mariana, a happy customer.",
-      "imageUrl": "https://i.postimg.cc/wxmJkZxt/01-1-e1753280607389.webp",
+      "imageUrl": "https://i.postimg.cc/jSxDTMp3/503863800-10228448052898001-92084120403136691-n.jpg",
       "imageHint": "woman smiling"
     }
   ]
