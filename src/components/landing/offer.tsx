@@ -4,6 +4,7 @@ import { Lock } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import Link from "next/link";
 
 export function Offer() {
   const productImage = PlaceHolderImages.find(
@@ -46,12 +47,14 @@ export function Offer() {
             >
               Oferta válida até 21 de Outubro!
             </Badge>
-            <Button
-              size="lg"
-              className="text-xl font-bold px-12 py-8 w-full md:w-auto transition-transform hover:scale-105 shadow-lg"
-            >
-              Quero minhas 200 receitas agora!
-            </Button>
+            <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8">
+              <Button
+                size="lg"
+                className="text-xl font-bold px-12 py-8 w-full md:w-auto transition-transform hover:scale-105 shadow-lg"
+              >
+                Quero minhas 200 receitas agora!
+              </Button>
+            </Link>
             <div className="mt-8 flex items-center justify-center gap-2 text-muted-foreground">
               <Lock className="w-4 h-4" />
               <span>Pagamento 100% seguro</span>

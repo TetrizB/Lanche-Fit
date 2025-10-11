@@ -75,7 +75,7 @@ export function Bonuses() {
         <p className="mb-12 text-lg font-semibold">
           Somando <span className="text-primary-foreground font-bold">R$73,00 em bônus</span> totalmente gratuitos — só hoje!
         </p>
-        <Link href="#offer">
+        <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8">
           <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
             Quero minhas receitas
           </Button>

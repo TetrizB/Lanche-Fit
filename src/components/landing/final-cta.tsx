@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import Link from "next/link";
 
 export function FinalCta() {
   const bgImage = PlaceHolderImages.find(
@@ -28,9 +29,11 @@ export function FinalCta() {
             200 receitas criadas por uma nutricionista — com sabor, saúde e
             praticidade.
           </p>
-          <Button size="lg" className="text-xl font-bold px-12 py-8 w-full md:w-auto transition-transform hover:scale-105 shadow-lg">
-            Sim, quero meu acesso agora!
-          </Button>
+          <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8">
+            <Button size="lg" className="text-xl font-bold px-12 py-8 w-full md:w-auto transition-transform hover:scale-105 shadow-lg">
+              Sim, quero meu acesso agora!
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

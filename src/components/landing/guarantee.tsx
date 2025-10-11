@@ -18,7 +18,7 @@ export function Guarantee() {
               Teste por 7 dias e se não gostar, devolvemos seu dinheiro na hora e
               você ainda fica com o produto! O risco é todo nosso.
             </p>
-             <Link href="#offer">
+             <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8">
               <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
                 Quero minhas receitas
               </Button>
