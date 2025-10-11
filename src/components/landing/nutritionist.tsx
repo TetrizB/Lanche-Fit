@@ -1,7 +1,5 @@
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 
 export function Nutritionist() {
   const nutritionistImage = PlaceHolderImages.find(
@@ -36,11 +34,6 @@ export function Nutritionist() {
               pessoas que odiavam ‘comida de dieta’, resolvi provar que dá pra
               emagrecer comendo bem e sem complicação.
             </p>
-            <Link href="#offer">
-              <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
-                Quero minhas receitas
-              </Button>
-            </Link>
           </div>
         </div>
       </div>
