@@ -89,6 +89,12 @@
       "description": "Screenshot of Instagram comments praising the recipes.",
       "imageUrl": "https://i.postimg.cc/wxmJkZxt/01-1-e1753280607389.webp",
       "imageHint": "instagram comments"
+    },
+    {
+      "id": "product-ebook-cover",
+      "description": "Cover of the Nutri Morning e-book",
+      "imageUrl": "https://i.postimg.cc/wB7q0ZNh/Texto-do-seu-par-grafo-1.png",
+      "imageHint": "ebook cover"
     }
   ]
 }
