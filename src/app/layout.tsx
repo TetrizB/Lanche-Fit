@@ -16,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="!scroll-smooth">
       <head>
+        <link rel="icon" href="https://i.postimg.cc/JD758kH0/Design-sem-nome-7.png" type="image/png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
