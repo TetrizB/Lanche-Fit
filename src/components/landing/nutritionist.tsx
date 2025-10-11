@@ -31,7 +31,7 @@ export function Nutritionist() {
               Prazer, sou a Laura Costa.
             </p>
             <p className="text-lg text-muted-foreground mb-8">
-              Sou nutricionista funcional e criei este cardápio para mostrar que
+              Sou nutricionista funcional e, junto com a Chefe Bruna, criei este cardápio para mostrar que
               comer bem pode — e deve — ter sabor. Depois de anos atendendo
               pessoas que odiavam ‘comida de dieta’, resolvi provar que dá pra
               emagrecer comendo bem e sem complicação.
