@@ -3,7 +3,7 @@
     {
       "id": "hero-image",
       "description": "A beautiful breakfast spread with pancakes, fruits, and coffee.",
-      "imageUrl": "https://picsum.photos/seed/hero/1200/800",
+      "imageUrl": "https://picsum.photos/seed/11/1200/800",
       "imageHint": "breakfast spread"
     },
     {
@@ -21,14 +21,14 @@
     {
       "id": "pao-cremoso-gratinado",
       "description": "Creamy au gratin bread.",
-      "imageUrl": "https://picsum.photos/seed/4/400/300",
+      "imageUrl": "",
       "imageHint": "gratin bread"
     },
     {
       "id": "shake-detox-energizante",
       "description": "An energizing detox shake.",
-      "imageUrl": "https://images.unsplash.com/photo-1505252585461-1b632da54617?q=80&w=1200",
-      "imageHint": "detox shake"
+      "imageUrl": "https://i.postimg.cc/QCK5TWFp/shake-de-proteina-caseiro-para-emagrecer-24414.webp",
+      "imageHint": "protein shake"
     },
     {
       "id": "brownie-frigideira",

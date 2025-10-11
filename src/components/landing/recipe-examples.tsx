@@ -42,13 +42,13 @@ export function RecipeExamples() {
             const image = PlaceHolderImages.find((img) => img.id === recipe.id);
             return (
               <Card key={recipe.id} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-                {image && (
+                {image && image.imageUrl && (
                   <div className="relative h-48 w-full">
                     <Image
                       src={image.imageUrl}
                       alt={recipe.name}
                       width={300}
-                      height={283}
+                      height={200}
                       className="object-cover w-full h-full"
                       data-ai-hint={image.imageHint}
                     />
