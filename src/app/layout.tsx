@@ -6,7 +6,7 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "Nutri Morning",
   description:
-    "Transforme suas manhãs com 200 cafés da manhã saudáveis (e deliciosos de verdade)",
+    "Transforme sua rotina com 200 lanches saudáveis (e deliciosos de verdade)",
 };
 
 export default function RootLayout({
