@@ -1,3 +1,64 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "A beautiful breakfast spread with pancakes, fruits, and coffee.",
+      "imageUrl": "https://picsum.photos/seed/1/1200/800",
+      "imageHint": "pancakes fruit"
+    },
+    {
+      "id": "maria-aguiar-smiling",
+      "description": "Nutritionist Maria Aguiar smiling with a bowl of fruit.",
+      "imageUrl": "https://picsum.photos/seed/2/400/400",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "panqueca-fit-banana",
+      "description": "Healthy banana pancakes.",
+      "imageUrl": "https://picsum.photos/seed/3/400/300",
+      "imageHint": "banana pancake"
+    },
+    {
+      "id": "pao-cremoso-gratinado",
+      "description": "Creamy au gratin bread.",
+      "imageUrl": "https://picsum.photos/seed/4/400/300",
+      "imageHint": "gratin bread"
+    },
+    {
+      "id": "shake-detox-energizante",
+      "description": "An energizing detox shake.",
+      "imageUrl": "https://picsum.photos/seed/5/400/300",
+      "imageHint": "detox shake"
+    },
+    {
+      "id": "brownie-frigideira",
+      "description": "A brownie made in a pan.",
+      "imageUrl": "https://picsum.photos/seed/6/400/300",
+      "imageHint": "pan brownie"
+    },
+    {
+      "id": "maria-aguiar-portrait",
+      "description": "A professional portrait of nutritionist Maria Aguiar.",
+      "imageUrl": "https://picsum.photos/seed/7/400/400",
+      "imageHint": "nutritionist portrait"
+    },
+    {
+      "id": "testimonial-juliana",
+      "description": "Portrait of Juliana, a happy customer.",
+      "imageUrl": "https://picsum.photos/seed/8/100/100",
+      "imageHint": "woman selfie"
+    },
+    {
+      "id": "testimonial-carla",
+      "description": "Portrait of Carla, a happy customer.",
+      "imageUrl": "https://picsum.photos/seed/9/100/100",
+      "imageHint": "woman happy"
+    },
+    {
+      "id": "final-cta-background",
+      "description": "A soft, morning-lit breakfast scene.",
+      "imageUrl": "https://picsum.photos/seed/10/1920/500",
+      "imageHint": "breakfast morning"
+    }
+  ]
 }
