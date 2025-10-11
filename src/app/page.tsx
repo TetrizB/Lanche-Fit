@@ -3,7 +3,6 @@ import { Hero } from "@/components/landing/hero";
 import { BigIdea } from "@/components/landing/big-idea";
 import { Features } from "@/components/landing/features";
 import { RecipeExamples } from "@/components/landing/recipe-examples";
-import { PersonalizedRecommendation } from "@/components/landing/personalized-recommendation";
 import { Nutritionist } from "@/components/landing/nutritionist";
 import { Bonuses } from "@/components/landing/bonuses";
 import { ForWhom } from "@/components/landing/for-whom";
@@ -23,7 +22,6 @@ export default function Home() {
         <BigIdea />
         <Features />
         <RecipeExamples />
-        <PersonalizedRecommendation />
         <Nutritionist />
         <Bonuses />
         <ForWhom />
