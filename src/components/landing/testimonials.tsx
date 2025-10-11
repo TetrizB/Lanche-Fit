@@ -24,19 +24,22 @@ const testimonials = [
 ];
 
 export function Testimonials() {
+   const instagramCommentsImage = PlaceHolderImages.find(
+    (img) => img.id === "instagram-comments"
+  );
   return (
     <section className="py-16 lg:py-24 bg-secondary">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-headline font-bold text-center mb-12">
           O que nossas alunas estão dizendo
         </h2>
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-12">
+        <div className="grid md:grid-cols-1 lg:grid-cols-4 gap-8 max-w-7xl mx-auto mb-12 items-start">
           {testimonials.map((testimonial) => {
             const image = PlaceHolderImages.find(
               (img) => img.id === testimonial.id
             );
             return (
-              <Card key={testimonial.id} className="bg-background p-6 shadow-lg">
+              <Card key={testimonial.id} className="bg-background p-6 shadow-lg h-full">
                 <CardContent className="p-0">
                   <div className="flex items-center mb-4">
                     <Avatar className="h-12 w-12 mr-4">
@@ -52,6 +55,18 @@ export function Testimonials() {
               </Card>
             );
           })}
+          {instagramCommentsImage && (
+             <Card className="bg-background p-2 shadow-lg hidden lg:block">
+                <Image
+                  src={instagramCommentsImage.imageUrl}
+                  alt={instagramCommentsImage.description}
+                  width={300}
+                  height={600}
+                  className="rounded-md w-full object-contain"
+                  data-ai-hint={instagramCommentsImage.imageHint}
+                />
+              </Card>
+          )}
         </div>
         <Link href="#offer">
           <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
