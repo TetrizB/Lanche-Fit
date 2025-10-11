@@ -31,7 +31,7 @@ export function Hero() {
             ganhar energia e saborear cada manhã.
           </p>
           <div className="flex flex-col items-center gap-4">
-            <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8">
+            <Link href="/#offer">
               <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
                 Quero minhas receitas agora
               </Button>

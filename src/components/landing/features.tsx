@@ -53,7 +53,7 @@ export function Features() {
             </div>
           ))}
         </div>
-        <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8">
+        <Link href="/#offer">
           <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
             Quero minhas receitas
           </Button>
