@@ -59,6 +59,12 @@
       "description": "A soft, morning-lit breakfast scene.",
       "imageUrl": "https://picsum.photos/seed/10/1920/500",
       "imageHint": "breakfast morning"
+    },
+    {
+      "id": "marmitas-fit",
+      "description": "Meal prep containers with healthy food.",
+      "imageUrl": "https://i.postimg.cc/44ScZwYJ/hq720-1.jpg",
+      "imageHint": "meal prep"
     }
   ]
 }
