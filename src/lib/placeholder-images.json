@@ -77,6 +77,12 @@
       "description": "A glass of green detox juice.",
       "imageUrl": "https://i.postimg.cc/2Sfxvmn9/Receitas-de-Suco-Detox.webp",
       "imageHint": "detox juice"
+    },
+    {
+      "id": "testimonial-mariana",
+      "description": "Portrait of Mariana, a happy customer.",
+      "imageUrl": "https://i.postimg.cc/wxmJkZxt/01-1-e1753280607389.webp",
+      "imageHint": "woman smiling"
     }
   ]
 }

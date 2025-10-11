@@ -16,6 +16,11 @@ const testimonials = [
     name: "Carla, 29 anos",
     quote: "Nunca imaginei que uma pizza de frigideira pudesse ser tão leve! Estou amando a variedade e a praticidade. Finalmente sinto prazer em tomar café da manhã.",
   },
+  {
+    id: "testimonial-mariana",
+    name: "Mariana, 35 anos",
+    quote: "Finalmente uma forma de comer saudável que não é chata! As receitas são criativas e me ajudaram a manter o foco no meu objetivo.",
+  },
 ];
 
 export function Testimonials() {
@@ -25,7 +30,7 @@ export function Testimonials() {
         <h2 className="text-4xl font-headline font-bold text-center mb-12">
           O que nossas alunas estão dizendo
         </h2>
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-12">
           {testimonials.map((testimonial) => {
             const image = PlaceHolderImages.find(
               (img) => img.id === testimonial.id
