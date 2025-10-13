@@ -5,6 +5,8 @@ import { cn } from "@/lib/utils";
 import { useState } from "react";
 
 export const Background = ({children}: {children: React.ReactNode}) => {
+  const [count, setCount] = useState(0);
+
   return (
    <div className="w-full relative">
   {/* Soft Yellow Glow */}
@@ -14,7 +16,7 @@ export const Background = ({children}: {children: React.ReactNode}) => {
       backgroundImage: `
         radial-gradient(circle at center, #FFF991 0%, transparent 70%)
       `,
-      opacity: 0.2,
+      opacity: 0.6,
       mixBlendMode: "multiply",
       pointerEvents: "none",
     }}
