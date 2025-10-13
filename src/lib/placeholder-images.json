@@ -95,12 +95,6 @@
       "description": "Cover of the Nutri Morning e-book",
       "imageUrl": "https://i.postimg.cc/qMM9snn9/Design-sem-nome-3.png",
       "imageHint": "ebook cover"
-    },
-    {
-      "id": "delivery-section-image",
-      "description": "Examples of healthy snacks and meals from the e-book.",
-      "imageUrl": "https://i.postimg.cc/wMmZMKr9/lanches-fit-de-nutri-1.png",
-      "imageHint": "healthy snacks"
     }
   ]
 }
