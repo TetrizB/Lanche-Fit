@@ -4,7 +4,7 @@ import { Toaster } from "@/components/ui/toaster";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Nutri Morning",
+  title: "Lanche de Nutri",
   description:
     "Transforme sua rotina com 200 lanches saudáveis (e deliciosos de verdade)",
 };
