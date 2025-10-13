@@ -19,14 +19,14 @@ export function Hero() {
           data-ai-hint={heroImage.imageHint}
         />
       )}
-      <div className="absolute inset-0 bg-white/50 dark:bg-black/50" />
+      <div className="absolute inset-0 bg-background/50" />
       <div className="relative container mx-auto px-4 z-10 text-foreground">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-headline font-bold text-foreground mb-4 inline-block p-2 rounded-md bg-background/70 dark:bg-background/50">
+          <h1 className="text-4xl md:text-6xl font-headline font-bold text-foreground mb-4 inline-block p-2 rounded-md bg-background/70">
             Transforme sua rotina com 200 lanches saudáveis (e deliciosos de
             verdade)
           </h1>
-          <p className="text-lg md:text-xl mb-8 p-2 rounded-md bg-background/70 dark:bg-background/50 font-medium">
+          <p className="text-lg md:text-xl mb-8 p-2 rounded-md bg-background/70 font-medium">
             Receitas criadas por uma nutricionista funcional para emagrecer,
             ganhar energia e saborear cada momento do dia.
           </p>
