@@ -30,7 +30,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'postimg.cc',
+        hostname: 'i.postimg.cc',
         port: '',
         pathname: '/**',
       }
