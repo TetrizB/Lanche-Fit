@@ -19,7 +19,7 @@ export function FinalCta() {
           data-ai-hint={bgImage.imageHint}
         />
       )}
-      <div className="absolute inset-0 bg-secondary/80 dark:bg-background/80" />
+      <div className="absolute inset-0 bg-background/80" />
       <div className="relative container mx-auto px-4 z-10">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-headline font-bold mb-4">
