@@ -47,7 +47,7 @@ export function Offer() {
             >
               Oferta válida até 21 de Outubro!
             </Badge>
-            <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8">
+            <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8" target="_blank" rel="noopener noreferrer">
               <Button
                 size="lg"
                 className="text-xl font-bold px-12 py-8 w-full md:w-auto transition-transform hover:scale-105 shadow-lg"

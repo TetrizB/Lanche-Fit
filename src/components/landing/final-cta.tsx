@@ -29,7 +29,7 @@ export function FinalCta() {
             200 receitas criadas por uma nutricionista — com sabor, saúde e
             praticidade.
           </p>
-          <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8">
+          <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="text-xl font-bold px-12 py-8 w-full md:w-auto transition-transform hover:scale-105 shadow-lg">
               Sim, quero meu acesso agora!
             </Button>
