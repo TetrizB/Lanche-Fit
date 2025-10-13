@@ -1,7 +1,22 @@
 import type { Metadata } from "next";
+import { Playfair_Display, Poppins } from 'next/font/google';
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import Script from "next/script";
+
+const playfairDisplay = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['700'],
+  variable: '--font-playfair-display',
+  display: 'swap',
+});
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '600'],
+  variable: '--font-poppins',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: "Lanche de Nutri",
@@ -15,19 +30,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className="!scroll-smooth">
+    <html lang="pt-BR" className={`!scroll-smooth ${playfairDisplay.variable} ${poppins.variable}`}>
       <head>
         <link rel="icon" href="https://i.postimg.cc/JD758kH0/Design-sem-nome-7.png" type="image/png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-          rel="stylesheet"
-        />
         <Script
           id="utmify-utms"
           src="https://cdn.utmify.com.br/scripts/utms/latest.js"
