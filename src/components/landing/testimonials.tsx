@@ -16,26 +16,25 @@ const testimonials = [
     name: "Carla, 29 anos",
     quote: "Nunca imaginei que uma pizza de frigideira pudesse ser tão leve! Estou amando a variedade e a praticidade. Finalmente sinto prazer em tomar café da manhã.",
   },
-  {
-    id: "testimonial-mariana",
-    name: "Mariana, 35 anos",
-    quote: "Finalmente uma forma de comer saudável que não é chata! As receitas são criativas e me ajudaram a manter o foco no meu objetivo.",
-  },
 ];
 
 export function Testimonials() {
    const instagramCommentsImage = PlaceHolderImages.find(
     (img) => img.id === "instagram-comments"
   );
+  const secondTestimonialImage = PlaceHolderImages.find(
+    (img) => img.id === "testimonial-image-2"
+  );
+
   return (
     <section className="py-16 lg:py-24 bg-secondary">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-headline font-bold text-center mb-12">
           O que nossas alunas estão dizendo
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto mb-12 items-start">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto mb-12 items-start">
           {instagramCommentsImage && (
-             <Card className="bg-background p-2 shadow-lg md:col-span-2 lg:col-span-1 lg:order-last">
+             <Card className="bg-background p-2 shadow-lg">
                 <Image
                   src={instagramCommentsImage.imageUrl}
                   alt={instagramCommentsImage.description}
@@ -46,7 +45,8 @@ export function Testimonials() {
                 />
               </Card>
           )}
-          <div className="grid md:grid-cols-1 lg:col-span-3 gap-8 content-start">
+
+          <div className="space-y-8">
             {testimonials.map((testimonial) => {
               const image = PlaceHolderImages.find(
                 (img) => img.id === testimonial.id
@@ -69,6 +69,19 @@ export function Testimonials() {
               );
             })}
           </div>
+
+          {secondTestimonialImage && (
+             <Card className="bg-background p-2 shadow-lg">
+                <Image
+                  src={secondTestimonialImage.imageUrl}
+                  alt={secondTestimonialImage.description}
+                  width={300}
+                  height={600}
+                  className="rounded-md w-full object-contain"
+                  data-ai-hint={secondTestimonialImage.imageHint}
+                />
+              </Card>
+          )}
         </div>
         <Link href="/#offer">
           <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">

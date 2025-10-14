@@ -79,12 +79,6 @@
       "imageHint": "detox juice"
     },
     {
-      "id": "testimonial-mariana",
-      "description": "Portrait of Mariana, a happy customer.",
-      "imageUrl": "https://i.postimg.cc/jSxDTMp3/503863800-10228448052898001-92084120403136691-n.jpg",
-      "imageHint": "woman smiling"
-    },
-    {
       "id": "instagram-comments",
       "description": "Screenshot of Instagram comments praising the recipes.",
       "imageUrl": "https://i.postimg.cc/wxmJkZxt/01-1-e1753280607389.webp",
@@ -95,6 +89,12 @@
       "description": "Cover of the Nutri Morning e-book",
       "imageUrl": "https://i.postimg.cc/qMM9snn9/Design-sem-nome-3.png",
       "imageHint": "ebook cover"
+    },
+    {
+      "id": "testimonial-image-2",
+      "description": "Screenshot of a testimonial from a happy customer.",
+      "imageUrl": "https://i.postimg.cc/Xqmksc6c/imagem-2025-10-13-223949957.png",
+      "imageHint": "testimonial screenshot"
     }
   ]
 }
