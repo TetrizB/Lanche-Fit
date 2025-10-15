@@ -13,14 +13,16 @@ export function SocialProof() {
       <div className="container mx-auto px-4 text-center">
         {image && (
           <div className="mb-8 flex justify-center">
-            <Image
-              src={image.imageUrl}
-              alt={image.description}
-              width={1024}
-              height={576}
-              className="rounded-lg shadow-lg"
-              data-ai-hint={image.imageHint}
-            />
+            <div className="w-full max-w-4xl">
+              <Image
+                src={image.imageUrl}
+                alt={image.description}
+                width={1024}
+                height={576}
+                className="rounded-lg shadow-lg w-full h-auto"
+                data-ai-hint={image.imageHint}
+              />
+            </div>
           </div>
         )}
         <div className="flex flex-col items-center gap-4">
