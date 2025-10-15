@@ -95,6 +95,12 @@
       "description": "Screenshot of a testimonial from a happy customer.",
       "imageUrl": "https://i.postimg.cc/Xqmksc6c/imagem-2025-10-13-223949957.png",
       "imageHint": "testimonial screenshot"
+    },
+    {
+      "id": "client-testimonials-banner",
+      "description": "Banner with testimonials from happy clients",
+      "imageUrl": "https://i.postimg.cc/d1kNfKwn/CLIENTES.png",
+      "imageHint": "client testimonials"
     }
   ]
 }

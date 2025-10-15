@@ -12,6 +12,7 @@ import { Guarantee } from "@/components/landing/guarantee";
 import { Delivery } from "@/components/landing/delivery";
 import { FinalCta } from "@/components/landing/final-cta";
 import { Footer } from "@/components/landing/footer";
+import { SocialProof } from "@/components/landing/social-proof";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Hero />
         <BigIdea />
         <Features />
+        <SocialProof />
         <RecipeExamples />
         <Nutritionist />
         <Bonuses />
