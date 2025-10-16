@@ -2,7 +2,6 @@ import { Mail, Smartphone, Printer, RefreshCw, MessageSquare } from "lucide-reac
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const items = [
   { icon: <Mail className="w-8 h-8 text-primary" />, text: "Receba no e-mail e WhatsApp" },
@@ -13,24 +12,9 @@ const items = [
 ];
 
 export function Delivery() {
-    const image = PlaceHolderImages.find(
-    (img) => img.id === "delivery-section-image"
-  );
   return (
     <section className="py-16 lg:py-24">
       <div className="container mx-auto px-4 text-center">
-         {image && (
-          <div className="mb-12">
-            <Image
-              src={image.imageUrl}
-              alt={image.description}
-              width={800}
-              height={200}
-              className="rounded-lg shadow-lg mx-auto w-full max-w-4xl object-cover"
-              data-ai-hint={image.imageHint}
-            />
-          </div>
-        )}
         <h2 className="text-4xl font-headline font-bold text-center mb-12">
           Acesso Imediato e Suporte Garantido
         </h2>
