@@ -3,7 +3,6 @@ import { Playfair_Display, Poppins } from 'next/font/google';
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import Script from "next/script";
-import { Background } from "@/components/ui/background-components";
 
 const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
@@ -62,9 +61,7 @@ export default function RootLayout({
           <img height="1" width="1" style={{display: 'none'}} 
                src="https://www.facebook.com/tr?id=1757199198492512&ev=PageView&noscript=1"/>
         </noscript>
-        <Background>
-          {children}
-        </Background>
+        {children}
         <Toaster />
         <Script id="utmify-pixel" strategy="afterInteractive">
           {`
