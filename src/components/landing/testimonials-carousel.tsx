@@ -43,6 +43,7 @@ export function TestimonialsCarousel() {
                             <AvatarImage
                               src={testimonial.imageUrl}
                               alt={`Foto de ${testimonial.name}`}
+                              data-ai-hint={testimonial.imageHint}
                             />
                             <AvatarFallback>
                               {testimonial.name ? testimonial.name.charAt(0) : ''}
