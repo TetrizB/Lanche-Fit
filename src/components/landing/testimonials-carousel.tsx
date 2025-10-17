@@ -8,7 +8,6 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
-import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
@@ -38,20 +37,8 @@ export function TestimonialsCarousel() {
                   <div className="p-1 h-full">
                     <Card className="h-full">
                       <CardContent className="flex flex-col items-center justify-center p-6 text-center">
-                        {testimonial.imageUrl && (
-                          <Avatar className="w-20 h-20 mb-4">
-                            <AvatarImage
-                              src={testimonial.imageUrl}
-                              alt={`Foto de ${testimonial.name}`}
-                              data-ai-hint={testimonial.imageHint}
-                            />
-                            <AvatarFallback>
-                              {testimonial.name ? testimonial.name.charAt(0) : ''}
-                            </AvatarFallback>
-                          </Avatar>
-                        )}
                         <p className="mb-4 font-medium text-muted-foreground">
-                          {testimonial.quote}
+                          “{testimonial.quote}”
                         </p>
                         <div>
                           <p className="font-bold">{testimonial.name}</p>
