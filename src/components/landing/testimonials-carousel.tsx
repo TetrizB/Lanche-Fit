@@ -101,6 +101,9 @@ export function TestimonialsCarousel() {
           className="w-full"
           onMouseEnter={plugin.current.stop}
           onMouseLeave={plugin.current.reset}
+          opts={{
+            loop: true,
+          }}
         >
           <CarouselContent>
             {testimonials.map((testimonial, index) => {
