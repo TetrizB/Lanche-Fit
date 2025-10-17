@@ -8,14 +8,14 @@ const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
   weight: ['400', '700'],
   variable: '--font-playfair-display',
-  display: 'swap',
+  display: 'block',
 });
 
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '600'],
   variable: '--font-poppins',
-  display: 'swap',
+  display: 'block',
 });
 
 export const metadata: Metadata = {
