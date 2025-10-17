@@ -105,61 +105,61 @@
     {
       "id": "carousel-juliana",
       "description": "Happy woman, Juliana",
-      "imageUrl": "https://picsum.photos/seed/101/200/200",
+      "imageUrl": "https://picsum.photos/seed/64/200/200",
       "imageHint": "happy woman"
     },
     {
       "id": "carousel-fernanda",
       "description": "Happy woman, Fernanda",
-      "imageUrl": "https://picsum.photos/seed/102/200/200",
+      "imageUrl": "https://picsum.photos/seed/65/200/200",
       "imageHint": "smiling person"
     },
     {
       "id": "carousel-camila",
       "description": "Happy woman, Camila",
-      "imageUrl": "https://picsum.photos/seed/103/200/200",
+      "imageUrl": "https://picsum.photos/seed/367/200/200",
       "imageHint": "woman portrait"
     },
     {
       "id": "carousel-roberta",
       "description": "Happy woman, Roberta",
-      "imageUrl": "https://picsum.photos/seed/104/200/200",
+      "imageUrl": "https://picsum.photos/seed/548/200/200",
       "imageHint": "happy person"
     },
     {
       "id": "carousel-aline",
       "description": "Happy woman, Dr. Aline",
-      "imageUrl": "https://picsum.photos/seed/105/200/200",
+      "imageUrl": "https://picsum.photos/seed/550/200/200",
       "imageHint": "professional woman"
     },
     {
       "id": "carousel-patricia",
       "description": "Happy woman, Patrícia",
-      "imageUrl": "https://picsum.photos/seed/106/200/200",
+      "imageUrl": "https://picsum.photos/seed/628/200/200",
       "imageHint": "woman smiling"
     },
     {
       "id": "carousel-leticia",
       "description": "Happy woman, Letícia",
-      "imageUrl": "https://picsum.photos/seed/107/200/200",
+      "imageUrl": "https://picsum.photos/seed/633/200/200",
       "imageHint": "person portrait"
     },
     {
       "id": "carousel-gabriela",
       "description": "Happy woman, Gabriela",
-      "imageUrl": "https://picsum.photos/seed/108/200/200",
+      "imageUrl": "https://picsum.photos/seed/646/200/200",
       "imageHint": "smiling woman"
     },
     {
       "id": "carousel-mariana",
       "description": "Happy woman, Mariana",
-      "imageUrl": "https://picsum.photos/seed/109/200/200",
+      "imageUrl": "https://picsum.photos/seed/660/200/200",
       "imageHint": "happy mother"
     },
     {
       "id": "carousel-claudia",
       "description": "Happy woman, Cláudia",
-      "imageUrl": "https://picsum.photos/seed/110/200/200",
+      "imageUrl": "https://picsum.photos/seed/696/200/200",
       "imageHint": "content woman"
     }
   ]
