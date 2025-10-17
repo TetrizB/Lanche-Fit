@@ -8,7 +8,7 @@ import Link from "next/link";
 const testimonials = [
   {
     id: "testimonial-juliana",
-    name: "Juliana, 41 anos",
+    name: "MARI",
     quote: "Em 7 dias, meu corpo desinchou e minha energia aumentou. As receitas são deliciosas e super fáceis de fazer, nem parece que estou de dieta!",
   },
   {
