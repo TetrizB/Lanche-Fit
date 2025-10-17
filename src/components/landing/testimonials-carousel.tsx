@@ -37,6 +37,10 @@ export function TestimonialsCarousel() {
                   <div className="p-1 h-full">
                     <Card className="h-full">
                       <CardContent className="flex flex-col items-center justify-center p-6 text-center">
+                        <Avatar className="w-20 h-20 mb-4">
+                          <AvatarImage src={testimonial.imageUrl} alt={testimonial.name} data-ai-hint={testimonial.imageHint} />
+                          <AvatarFallback>{testimonial.name?.charAt(0)}</AvatarFallback>
+                        </Avatar>
                         <p className="mb-4 font-medium text-muted-foreground">
                           “{testimonial.quote}”
                         </p>
