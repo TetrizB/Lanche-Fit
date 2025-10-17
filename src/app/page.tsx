@@ -13,6 +13,7 @@ import { Offer } from "@/components/landing/offer";
 import { RecipeExamples } from "@/components/landing/recipe-examples";
 import { SocialProof } from "@/components/landing/social-proof";
 import { Testimonials } from "@/components/landing/testimonials";
+import { TestimonialsCarousel } from "@/components/landing/testimonials-carousel";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <main className="flex-grow">
         <Hero />
         <BigIdea />
+        <TestimonialsCarousel />
         <Features />
         <SocialProof />
         <RecipeExamples />
