@@ -14,6 +14,7 @@ const Testimonials = dynamic(() => import('@/components/landing/testimonials').t
 const Offer = dynamic(() => import('@/components/landing/offer').then(mod => mod.Offer));
 const Guarantee = dynamic(() => import('@/components/landing/guarantee').then(mod => mod.Guarantee));
 const Delivery = dynamic(() => import('@/components/landing/delivery').then(mod => mod.Delivery));
+const Faq = dynamic(() => import('@/components/landing/faq').then(mod => mod.Faq));
 const FinalCta = dynamic(() => import('@/components/landing/final-cta').then(mod => mod.FinalCta));
 const Footer = dynamic(() => import('@/components/landing/footer').then(mod => mod.Footer));
 
@@ -36,6 +37,7 @@ export default function Home() {
         <Offer />
         <Guarantee />
         <Delivery />
+        <Faq />
         <FinalCta />
       </main>
       <Footer />
