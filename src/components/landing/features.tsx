@@ -3,36 +3,36 @@ import {
   Clock,
   Sparkles,
   Grape,
-  Blend,
   CookingPot,
+  ThumbsUp,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 const features = [
   {
-    icon: <Flame className="w-8 h-8 text-primary-foreground" />,
-    text: "Receitas de até 350 calorias",
+    icon: <Clock className="w-8 h-8 text-primary-foreground" />,
+    text: "Preparo em até 10 minutos",
   },
   {
     icon: <Sparkles className="w-8 h-8 text-primary-foreground" />,
-    text: "Ingredientes simples",
+    text: "Ingredientes fáceis de achar",
   },
   {
-    icon: <Clock className="w-8 h-8 text-primary-foreground" />,
-    text: "Preparo em até 15 minutos",
+    icon: <Flame className="w-8 h-8 text-primary-foreground" />,
+    text: "Receitas com até 400 calorias",
   },
   {
     icon: <Grape className="w-8 h-8 text-primary-foreground" />,
-    text: "Alta em proteínas e vitaminas",
+    text: "Ricas em nutrientes e fibras",
   },
   {
-    icon: <Blend className="w-8 h-8 text-primary-foreground" />,
-    text: "Feitas com liquidificador e frigideira",
+    icon: <ThumbsUp className="w-8 h-8 text-primary-foreground" />,
+    text: "Sabor de comida de verdade",
   },
   {
     icon: <CookingPot className="w-8 h-8 text-primary-foreground" />,
-    text: "Acesso digital prático e ilustrado",
+    text: "Acesso digital e prático",
   },
 ];
 
@@ -41,7 +41,7 @@ export function Features() {
     <section className="py-16 lg:py-24 bg-secondary">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-headline font-bold mb-12">
-          O Que Você Vai Encontrar
+          O Que Você Vai Encontrar no Fast Fit
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-center mb-12">
           {features.map((feature, index) => (
@@ -55,7 +55,7 @@ export function Features() {
         </div>
         <Link href="/#offer">
           <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
-            Quero minhas receitas
+            Quero ter uma vida mais saudável
           </Button>
         </Link>
       </div>

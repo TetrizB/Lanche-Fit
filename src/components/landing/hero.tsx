@@ -23,10 +23,10 @@ export function Hero() {
       <div className="relative container mx-auto px-4 z-10 text-foreground">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-headline font-bold text-foreground mb-4 inline-block p-2 rounded-md bg-background/70">
-            Transforme sua rotina com 200 lanches saudáveis — simples, rápidos e deliciosos de verdade
+            Fast Fit: Comida Boa e Leve em 10 Minutos
           </h1>
           <p className="text-lg md:text-xl mb-8 p-2 rounded-md bg-background/70 font-medium">
-            Receitas criadas por uma nutricionista funcional para quem quer emagrecer sem restrições, ter energia o dia todo e aproveitar o prazer de comer bem.
+            Prepare refeições leves, rápidas e com gosto real — sem castigo. Sem dieta chata, sem marmita sem graça, sem fome. Apenas sabor e praticidade — mesmo que odeie salada.
           </p>
           <div className="flex flex-col items-center gap-4">
             <Link href="/#offer">

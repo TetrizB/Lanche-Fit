@@ -28,7 +28,7 @@ export function Offer() {
           )}
           <CardHeader className="pt-0">
             <h2 className="text-3xl font-headline font-bold mb-4">
-              200 LANCHES FIT DE NUTRI (COM SABOR)
+              FAST FIT: COMIDA BOA E LEVE EM 10 MINUTOS
             </h2>
             <p className="text-xl font-semibold mb-2 text-primary">
               Acesso completo e imediato
@@ -45,14 +45,14 @@ export function Offer() {
               variant="destructive"
               className="mb-8 text-base font-semibold"
             >
-              Oferta válida até 21 de Outubro!
+              Oferta por tempo limitado!
             </Badge>
             <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8" target="_blank" rel="noopener noreferrer">
               <Button
                 size="lg"
                 className="text-xl font-bold px-12 py-8 w-full md:w-auto transition-transform hover:scale-105 shadow-lg"
               >
-                Quero minhas 200 receitas agora!
+                Quero comer bem sem sofrer!
               </Button>
             </Link>
             <div className="mt-8 flex items-center justify-center gap-2 text-muted-foreground">

@@ -1,23 +1,23 @@
-import { Weight, Clock, Coffee, Feather } from "lucide-react";
+import { Weight, Clock, ChefHat, Annoyed } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 const items = [
   {
     icon: <Weight className="w-6 h-6 text-primary" />,
-    text: "Quem quer emagrecer sem sofrimento",
+    text: "Quem quer emagrecer comendo bem",
   },
   {
     icon: <Clock className="w-6 h-6 text-primary" />,
-    text: "Quem não tem tempo para preparar receitas",
+    text: "Quem tem uma rotina corrida e sem tempo",
   },
   {
-    icon: <Coffee className="w-6 h-6 text-primary" />,
-    text: "Quem está cansada do mesmo café da manhã",
+    icon: <Annoyed className="w-6 h-6 text-primary" />,
+    text: "Quem odeia dieta e comida sem gosto",
   },
   {
-    icon: <Feather className="w-6 h-6 text-primary" />,
-    text: "Quem quer se sentir mais leve e disposta",
+    icon: <ChefHat className="w-6 h-6 text-primary" />,
+    text: "Quem busca praticidade na cozinha",
   },
 ];
 
@@ -27,7 +27,7 @@ export function ForWhom() {
       <div className="container mx-auto px-4 text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-4xl font-headline font-bold text-center mb-12">
-            Este guia é para você que...
+            O Fast Fit é para você que...
           </h2>
           <ul className="space-y-6 mb-12 text-left">
             {items.map((item, index) => (

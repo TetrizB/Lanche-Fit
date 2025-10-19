@@ -2,39 +2,39 @@
   "placeholderImages": [
     {
       "id": "hero-image",
-      "description": "A beautiful breakfast spread with pancakes, fruits, and coffee.",
-      "imageUrl": "https://i.postimg.cc/3r22Y2Hv/Design-sem-nome-1.png",
-      "imageHint": "breakfast spread"
+      "description": "A vibrant and healthy plate of food, with grilled chicken, salad, and avocado.",
+      "imageUrl": "https://i.postimg.cc/P5L0yJtZ/Design-sem-nome-8.png",
+      "imageHint": "healthy meal plate"
     },
     {
       "id": "laura-costa-smiling",
-      "description": "Nutritionist Laura Costa smiling with a bowl of fruit.",
+      "description": "Nutritionist Laura Costa smiling with a bowl of healthy food.",
       "imageUrl": "https://i.postimg.cc/FKcH3gpz/5-6.webp",
-      "imageHint": "woman smiling"
+      "imageHint": "woman smiling food"
     },
     {
       "id": "panqueca-fit-banana",
-      "description": "Healthy banana pancakes.",
+      "description": "Healthy parmesan-crusted chicken.",
       "imageUrl": "https://i.postimg.cc/MTPbRSdT/fec84e0a9389fdc006a7dde8e0b3fee1-1-300x283.webp",
-      "imageHint": "banana pancake"
+      "imageHint": "parmesan chicken"
     },
     {
       "id": "pao-cremoso-gratinado",
-      "description": "Creamy au gratin bread.",
+      "description": "Grilled salmon with broccoli.",
       "imageUrl": "https://i.postimg.cc/tC0DzX9j/BAIXA.webp",
-      "imageHint": "gratin bread"
+      "imageHint": "grilled salmon"
     },
     {
       "id": "shake-detox-energizante",
-      "description": "An energizing detox shake.",
+      "description": "Zucchini bolognese pasta.",
       "imageUrl": "https://i.postimg.cc/QCK5TWFp/shake-de-proteina-caseiro-para-emagrecer-24414.webp",
-      "imageHint": "protein shake"
+      "imageHint": "zucchini pasta"
     },
     {
       "id": "brownie-frigideira",
-      "description": "A brownie made in a pan.",
+      "description": "A healthy fit pizza made in a pan.",
       "imageUrl": "https://i.postimg.cc/rpRhqzJh/Brownie-de-Frigideira-02-1200x676.jpg",
-      "imageHint": "pan brownie"
+      "imageHint": "pan pizza"
     },
     {
       "id": "laura-costa-portrait",
@@ -56,9 +56,9 @@
     },
     {
       "id": "final-cta-background",
-      "description": "A soft, morning-lit breakfast scene.",
-      "imageUrl": "https://i.postimg.cc/3r22Y2Hv/Design-sem-nome-1.png",
-      "imageHint": "breakfast morning"
+      "description": "A vibrant and healthy plate of food, with grilled chicken, salad, and avocado.",
+      "imageUrl": "https://i.postimg.cc/P5L0yJtZ/Design-sem-nome-8.png",
+      "imageHint": "healthy meal plate"
     },
     {
       "id": "marmitas-fit",
@@ -86,7 +86,7 @@
     },
     {
       "id": "product-ebook-cover",
-      "description": "Cover of the Nutri Morning e-book",
+      "description": "Cover of the Fast Fit e-book",
       "imageUrl": "https://i.postimg.cc/qMM9snn9/Design-sem-nome-3.png",
       "imageHint": "ebook cover"
     },
@@ -106,90 +106,90 @@
       "id": "carousel-juliana",
       "name": "Juliana M.",
       "handle": "@ju.saudeleve",
-      "quote": "“⭐️ Nunca imaginei que fosse conseguir manter uma alimentação saudável por tanto tempo! As receitas são rápidas, gostosas e práticas. Uso todos os dias!”",
+      "quote": "⭐️ Nunca imaginei que fosse conseguir manter uma alimentação saudável por tanto tempo! As receitas são rápidas, gostosas e práticas. Uso todos os dias!",
       "description": "Happy woman, Juliana",
-      "imageUrl": "https://picsum.photos/seed/64/200/200",
+      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYXBweSUyMHdvbWFufGVufDB8fHx8MTc2MDg4NTUyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "happy woman"
     },
     {
       "id": "carousel-fernanda",
       "name": "Fernanda C.",
       "handle": "@fervida.fit",
-      "quote": "“⭐️ Perdi 5kg em 2 meses sem passar fome e ainda descobri novos lanches que amo. Vale cada centavo!”",
+      "quote": "⭐️ Perdi 5kg em 2 meses sem passar fome e ainda descobri novos lanches que amo. Vale cada centavo!",
       "description": "Happy woman, Fernanda",
-      "imageUrl": "https://picsum.photos/seed/65/200/200",
+      "imageUrl": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzbWlsaW5nJTIwcGVyc29ufGVufDB8fHx8MTc2MDg0MDM3MHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "smiling person"
     },
     {
       "id": "carousel-camila",
       "name": "Camila P.",
       "handle": "@camipranutri",
-      "quote": "“⭐️ Eu achava que lanche saudável era sem graça… até conhecer esse e-book. Agora até meu marido pede as receitas!”",
+      "quote": "⭐️ Eu achava que lanche saudável era sem graça… até conhecer esse e-book. Agora até meu marido pede as receitas!",
       "description": "Happy woman, Camila",
-      "imageUrl": "https://picsum.photos/seed/367/200/200",
+      "imageUrl": "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MDgzNjQ2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman portrait"
     },
     {
       "id": "carousel-roberta",
       "name": "Roberta S.",
       "handle": "@robertaequilibrio",
-      "quote": "“⭐️ A variedade é absurda! Sempre que bate vontade de doce, abro o PDF e escolho uma opção sem culpa.”",
+      "quote": "⭐️ A variedade é absurda! Sempre que bate vontade de doce, abro o PDF e escolho uma opção sem culpa.",
       "description": "Happy woman, Roberta",
-      "imageUrl": "https://picsum.photos/seed/548/200/200",
+      "imageUrl": "https://images.unsplash.com/photo-1535295972055-1c762f4483e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHBlcnNvbnxlbnwwfHx8fDE3NjA4MzU0OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "happy person"
     },
     {
       "id": "carousel-aline",
       "name": "Dra. Aline T.",
       "handle": "@nutrialine.tf",
-      "quote": "“⭐️ Sou nutricionista e fiquei impressionada com a qualidade e equilíbrio das receitas. Tudo muito bem pensado!”",
+      "quote": "⭐️ Sou nutricionista e fiquei impressionada com a qualidade e equilíbrio das receitas. Tudo muito bem pensado!",
       "description": "Happy woman, Dr. Aline",
-      "imageUrl": "https://picsum.photos/seed/550/200/200",
+      "imageUrl": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjB3b21hbnxlbnwwfHx8fDE3NjA4MzM2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "professional woman"
     },
     {
       "id": "carousel-patricia",
       "name": "Patrícia V.",
       "handle": "@patysaudaveloficial",
-      "quote": "“⭐️ Eu vivia sem ideia do que comer entre as refeições. Agora tenho mais energia e não caio mais nas tentações do fast food.”",
+      "quote": "⭐️ Eu vivia sem ideia do que comer entre as refeições. Agora tenho mais energia e não caio mais nas tentações do fast food.",
       "description": "Happy woman, Patrícia",
-      "imageUrl": "https://picsum.photos/seed/628/200/200",
+      "imageUrl": "https://images.unsplash.com/photo-1692736475357-7c18bfbb808b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc2MDgxOTE3MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman smiling"
     },
     {
       "id": "carousel-leticia",
       "name": "Letícia A.",
       "handle": "@leatualfit",
-      "quote": "“⭐️ Adorei a forma como está organizado, com fotos e opções por tipo de lanche. Já virou meu guia de bolso!”",
+      "quote": "⭐️ Adorei a forma como está organizado, com fotos e opções por tipo de lanche. Já virou meu guia de bolso!",
       "description": "Happy woman, Letícia",
-      "imageUrl": "https://picsum.photos/seed/633/200/200",
+      "imageUrl": "https://images.unsplash.com/photo-1535643302794-19c3804b874b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjA4MjUzNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person portrait"
     },
     {
       "id": "carousel-gabriela",
       "name": "Gabriela F.",
       "handle": "@gabifuncional_vida",
-      "quote": "“⭐️ Não é só um livro de receitas — é um estilo de vida mais leve e delicioso. Recomendo demais!”",
+      "quote": "⭐️ Não é só um livro de receitas — é um estilo de vida mais leve e delicioso. Recomendo demais!",
       "description": "Happy woman, Gabriela",
-      "imageUrl": "https://picsum.photos/seed/646/200/200",
+      "imageUrl": "https://images.unsplash.com/photo-1630939687530-241d630735df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c21pbGluZyUyMHdvbWFufGVufDB8fHx8MTc2MDgzNTgwMXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "smiling woman"
     },
     {
       "id": "carousel-mariana",
       "name": "Mariana D.",
       "handle": "@mari.comerbem",
-      "quote": "“⭐️ Comecei a testar as receitas com minhas filhas e elas amaram! Finalmente algo saudável que toda a família aprova.”",
+      "quote": "⭐️ Comecei a testar as receitas com minhas filhas e elas amaram! Finalmente algo saudável que toda a família aprova.",
       "description": "Happy woman, Mariana",
-      "imageUrl": "https://picsum.photos/seed/660/200/200",
+      "imageUrl": "https://images.unsplash.com/photo-1666888735904-8181ef873bf4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoYXBweSUyMG1vdGhlcnxlbnwwfHx8fDE3NjA5MTU1MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "happy mother"
     },
     {
       "id": "carousel-claudia",
       "name": "Cláudia R.",
       "handle": "@claudiacomsaude",
-      "quote": "“⭐️ Comprei achando que ia usar pouco… hoje é meu material mais usado. E o atendimento foi excelente!”",
+      "quote": "⭐️ Comprei achando que ia usar pouco… hoje é meu material mais usado. E o atendimento foi excelente!",
       "description": "Happy woman, Cláudia",
-      "imageUrl": "https://picsum.photos/seed/696/200/200",
+      "imageUrl": "https://images.unsplash.com/photo-1682420203677-c8e033a427eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb250ZW50JTIwd29tYW58ZW58MHx8fHwxNzYwOTE1NTA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "content woman"
     }
   ]

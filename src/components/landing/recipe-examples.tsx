@@ -8,27 +8,27 @@ import Link from "next/link";
 const recipes = [
   {
     id: "panqueca-fit-banana",
-    name: "Panqueca Fit de Banana",
-    time: "7 min",
-    calories: "183 cal",
+    name: "Frango com Crosta de Parmesão",
+    time: "10 min",
+    calories: "320 cal",
   },
   {
     id: "pao-cremoso-gratinado",
-    name: "Pão Cremoso Gratinado",
+    name: "Salmão Grelhado com Brócolis",
     time: "8 min",
-    calories: "170 cal",
+    calories: "380 cal",
   },
   {
     id: "shake-detox-energizante",
-    name: "Shake Detox Energizante",
-    time: "6 min",
-    calories: "120 cal",
+    name: "Macarrão de Abobrinha à Bolonhesa",
+    time: "12 min",
+    calories: "280 cal",
   },
   {
     id: "brownie-frigideira",
-    name: "Brownie de Frigideira",
-    time: "10 min",
-    calories: "176 cal",
+    name: "Pizza de Frigideira Fit",
+    time: "7 min",
+    calories: "250 cal",
   },
 ];
 
@@ -37,7 +37,7 @@ export function RecipeExamples() {
     <section className="py-16 lg:py-24">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-headline font-bold text-center mb-12">
-          Receitas rápidas, leves e irresistíveis
+          Refeições rápidas, leves e irresistíveis
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {recipes.map((recipe) => {

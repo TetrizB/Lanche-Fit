@@ -19,9 +19,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Lanche de Nutri",
+  title: "Fast Fit: Comida Boa e Leve em 10 Minutos",
   description:
-    "Transforme sua rotina com 200 lanches saudáveis (e deliciosos de verdade)",
+    "Prepare refeições leves, rápidas e com gosto real — sem castigo.",
 };
 
 export default function RootLayout({
