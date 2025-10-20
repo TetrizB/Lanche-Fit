@@ -27,14 +27,14 @@ export function Testimonials() {
   );
 
   return (
-    <section className="py-16 lg:py-24 bg-secondary">
+    <section className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-4xl font-headline font-bold text-center mb-12">
+        <h2 className="text-4xl lg:text-5xl font-headline tracking-wider uppercase text-center mb-12">
           O que nossas alunas estão dizendo
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto mb-12 items-start">
           {instagramCommentsImage && (
-             <Card className="bg-background p-2 shadow-lg">
+             <Card className="bg-card p-2 shadow-lg">
                 <Image
                   src={instagramCommentsImage.imageUrl}
                   alt={instagramCommentsImage.description}
@@ -52,7 +52,7 @@ export function Testimonials() {
                 (img) => img.id === testimonial.id
               );
               return (
-                <Card key={testimonial.id} className="bg-background p-6 shadow-lg h-full">
+                <Card key={testimonial.id} className="bg-card p-6 shadow-lg h-full">
                   <CardContent className="p-0">
                     <div className="flex items-center mb-4">
                       <Avatar className="h-12 w-12 mr-4">
@@ -71,7 +71,7 @@ export function Testimonials() {
           </div>
 
           {secondTestimonialImage && (
-             <Card className="bg-background p-2 shadow-lg">
+             <Card className="bg-card p-2 shadow-lg">
                 <Image
                   src={secondTestimonialImage.imageUrl}
                   alt={secondTestimonialImage.description}
@@ -84,7 +84,7 @@ export function Testimonials() {
           )}
         </div>
         <Link href="/#offer">
-          <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
+          <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105 uppercase">
             Quero minhas receitas
           </Button>
         </Link>

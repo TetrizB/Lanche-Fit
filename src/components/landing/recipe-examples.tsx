@@ -36,7 +36,7 @@ export function RecipeExamples() {
   return (
     <section className="py-16 lg:py-24">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-4xl font-headline font-bold text-center mb-12">
+        <h2 className="text-4xl lg:text-5xl font-headline tracking-wider uppercase text-center mb-12">
           Refeições rápidas, leves e irresistíveis
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
@@ -57,7 +57,7 @@ export function RecipeExamples() {
                   </div>
                 )}
                 <CardHeader>
-                  <CardTitle className="font-headline text-xl">{recipe.name}</CardTitle>
+                  <CardTitle className="font-headline text-2xl tracking-wide">{recipe.name}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div className="flex justify-between items-center text-sm text-muted-foreground">
@@ -70,7 +70,7 @@ export function RecipeExamples() {
           })}
         </div>
         <Link href="/#offer">
-          <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
+          <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105 uppercase">
             Quero minhas receitas
           </Button>
         </Link>

@@ -22,7 +22,7 @@ export function Nutritionist() {
             </div>
           )}
           <div className="text-center md:text-left">
-            <h2 className="text-4xl font-headline font-bold mb-4">
+            <h2 className="text-4xl lg:text-5xl font-headline tracking-wider uppercase mb-4">
               Quem é a Nutricionista?
             </h2>
             <p className="text-lg text-muted-foreground mb-2">
@@ -32,7 +32,7 @@ export function Nutritionist() {
               Sou nutricionista funcional e, junto com a Chefe Bruna, criei este cardápio para mostrar que
               comer bem pode — e deve — ter sabor. Depois de anos atendendo
               pessoas que odiavam ‘comida de dieta’, resolvi provar que dá pra
-              emagrecer comendo bem e sem complicação.
+              emagrecer comendo bem e <span className="uppercase font-bold">sem complicação</span>.
             </p>
           </div>
         </div>

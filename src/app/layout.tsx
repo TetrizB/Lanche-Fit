@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Poppins } from 'next/font/google';
+import { Bebas_Neue, Inter } from 'next/font/google';
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import Script from "next/script";
 
-const playfairDisplay = Playfair_Display({
+const bebasNeue = Bebas_Neue({
   subsets: ['latin'],
-  weight: ['400', '700'],
-  variable: '--font-playfair-display',
+  weight: ['400'],
+  variable: '--font-bebas-neue',
   display: 'block',
 });
 
-const poppins = Poppins({
+const inter = Inter({
   subsets: ['latin'],
-  weight: ['400', '600'],
-  variable: '--font-poppins',
+  weight: ['400', '600', '700'],
+  variable: '--font-inter',
   display: 'block',
 });
 
@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className={`!scroll-smooth ${playfairDisplay.variable} ${poppins.variable}`}>
+    <html lang="pt-BR" className={`!scroll-smooth ${bebasNeue.variable} ${inter.variable}`}>
       <head>
         <link rel="icon" href="https://i.postimg.cc/JD758kH0/Design-sem-nome-7.png" type="image/png" />
         <Script

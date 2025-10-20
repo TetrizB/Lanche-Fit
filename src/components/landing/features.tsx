@@ -40,7 +40,7 @@ export function Features() {
   return (
     <section className="py-16 lg:py-24 bg-secondary">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-4xl font-headline font-bold mb-12">
+        <h2 className="text-4xl lg:text-5xl font-headline tracking-wider uppercase mb-12">
           O Que Você Vai Encontrar no Fast Fit
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-center mb-12">
@@ -54,7 +54,7 @@ export function Features() {
           ))}
         </div>
         <Link href="/#offer">
-          <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
+          <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105 uppercase">
             Quero ter uma vida mais saudável
           </Button>
         </Link>

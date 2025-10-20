@@ -26,7 +26,7 @@ export function ForWhom() {
     <section className="py-16 lg:py-24">
       <div className="container mx-auto px-4 text-center">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl font-headline font-bold text-center mb-12">
+          <h2 className="text-4xl lg:text-5xl font-headline tracking-wider uppercase text-center mb-12">
             Pra quem é:
           </h2>
           <ul className="space-y-6 mb-12 text-left">
@@ -38,7 +38,7 @@ export function ForWhom() {
             ))}
           </ul>
            <Link href="/#offer">
-              <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
+              <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105 uppercase">
                 Quero minhas receitas
               </Button>
             </Link>

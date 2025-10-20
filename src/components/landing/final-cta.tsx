@@ -22,14 +22,14 @@ export function FinalCta() {
       <div className="absolute inset-0 bg-background/80" />
       <div className="relative container mx-auto px-4 z-10">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-headline font-bold mb-4">
+          <h2 className="text-4xl md:text-6xl font-headline tracking-wider uppercase mb-4">
             Comece a transformar seu corpo e sua rotina hoje
           </h2>
           <p className="text-xl mb-8 text-muted-foreground">
-            Receitas criadas por uma nutricionista — com sabor, saúde e praticidade em 10 minutos.
+            Receitas criadas por uma nutricionista — com sabor, saúde e praticidade em <span className="font-bold">10 minutos</span>.
           </p>
           <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8" target="_blank" rel="noopener noreferrer">
-            <Button size="lg" className="text-xl font-bold px-12 py-8 w-full md:w-auto transition-transform hover:scale-105 shadow-lg">
+            <Button size="lg" className="text-xl font-bold px-12 py-8 w-full md:w-auto transition-transform hover:scale-105 shadow-lg uppercase">
               Sim, quero meu acesso agora!
             </Button>
           </Link>

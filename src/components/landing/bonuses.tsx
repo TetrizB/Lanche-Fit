@@ -31,9 +31,9 @@ const bonuses = [
 
 export function Bonuses() {
   return (
-    <section className="py-16 lg:py-24 bg-secondary">
+    <section className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-4xl font-headline font-bold mb-4">
+        <h2 className="text-4xl lg:text-5xl font-headline tracking-wider uppercase mb-4">
           E não é só isso! Leve 3 Bônus Exclusivos
         </h2>
         <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
@@ -43,7 +43,7 @@ export function Bonuses() {
           {bonuses.map((bonus, index) => {
             const image = bonus.imageId ? PlaceHolderImages.find((img) => img.id === bonus.imageId) : null;
             return (
-              <Card key={index} className="text-center shadow-lg overflow-hidden">
+              <Card key={index} className="text-center shadow-lg overflow-hidden bg-card">
                  {image ? (
                   <div className="relative h-48 w-full">
                     <Image
@@ -60,11 +60,11 @@ export function Bonuses() {
                   </div>
                 )}
                 <CardHeader className="pt-6">
-                  <CardTitle className="font-headline text-2xl">{bonus.title}</CardTitle>
+                  <CardTitle className="font-headline text-3xl tracking-wide">{bonus.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">{bonus.description}</p>
-                  <div className="inline-block px-4 py-1 text-sm font-bold rounded-full bg-primary text-primary-foreground">
+                  <div className="inline-block px-4 py-1 text-sm font-bold rounded-full bg-primary text-primary-foreground uppercase">
                     {bonus.tag}
                   </div>
                 </CardContent>
@@ -76,7 +76,7 @@ export function Bonuses() {
           Somando <span className="text-primary-foreground font-bold">R$73,00 em bônus</span> totalmente gratuitos — só hoje!
         </p>
         <Link href="/#offer">
-          <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
+          <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105 uppercase">
             Quero minhas receitas
           </Button>
         </Link>
