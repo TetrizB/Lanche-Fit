@@ -5,10 +5,15 @@ import Link from "next/link";
 import { Star } from "lucide-react";
 
 const benefits = [
-  "200 RECEITAS EM 10 MINUTOS: Comida de verdade, testada e aprovada para quem não tem tempo a perder.",
-  "VERSATILIDADE PARA O DIA A DIA: Resolva café da manhã, almoço, lanche e jantar com um único guia.",
-  "INGREDIENTES FÁCEIS DE ENCONTRAR: Sem itens caros ou difíceis de achar. Use o que você já tem em casa.",
-  "ACESSO RÁPIDO E DIGITAL: Leve suas receitas no celular e consulte em qualquer lugar, a qualquer hora.",
+  "200 RECEITAS RÁPIDAS PARA O DIA A DIA",
+  "7 DIAS DE GARANTIA INCONDICIONAL",
+  "1 ANO DE ACESSO COM ATUALIZAÇÕES",
+];
+
+const bonuses = [
+  "BÔNUS: 200 SOBREMESAS ZERO AÇÚCAR",
+  "BÔNUS: 30 MARMITAS FIT PARA CONGELAR",
+  "BÔNUS: 60 SUCOS DETOX SABOROSOS",
 ];
 
 export function SocialProof() {
@@ -35,11 +40,19 @@ export function SocialProof() {
 
         <div className="max-w-3xl mx-auto text-left mb-12">
           <h3 className="text-2xl font-headline font-bold mb-6 text-center uppercase">O que você recebe na hora:</h3>
-          <ul className="space-y-4">
+          <ul className="space-y-4 mb-6">
             {benefits.map((benefit, index) => (
               <li key={index} className="flex items-start gap-3">
                 <span className="text-primary font-bold mt-1">✅</span>
-                <p className="text-muted-foreground">{benefit}</p>
+                <p className="text-muted-foreground font-semibold">{benefit}</p>
+              </li>
+            ))}
+          </ul>
+           <ul className="space-y-4">
+            {bonuses.map((bonus, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <span className="text-primary font-bold mt-1">➕</span>
+                <p className="text-muted-foreground">{bonus}</p>
               </li>
             ))}
           </ul>
