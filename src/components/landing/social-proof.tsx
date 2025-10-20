@@ -3,6 +3,23 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Star } from "lucide-react";
+import { Card } from "@/components/ui/card";
+
+const CheckIcon = ({ className }: { className?: string }) => (
+    <svg 
+        className={className}
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 24 24" 
+        fill="none" 
+        stroke="currentColor" 
+        strokeWidth="3" 
+        strokeLinecap="round" 
+        strokeLinejoin="round"
+    >
+        <path d="M20 6 9 17l-5-5"/>
+    </svg>
+);
+
 
 const benefits = [
   "200 RECEITAS RÁPIDAS PARA O DIA A DIA",
@@ -24,7 +41,7 @@ export function SocialProof() {
     <section className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4 text-center">
         {image && (
-          <div className="mb-8 flex justify-center">
+          <div className="mb-12 flex justify-center">
             <div className="w-full max-w-xl">
               <Image
                 src={image.imageUrl}
@@ -38,24 +55,30 @@ export function SocialProof() {
           </div>
         )}
 
-        <div className="max-w-3xl mx-auto text-left mb-12">
-          <h3 className="text-2xl font-headline font-bold mb-6 text-center uppercase">O que você recebe na hora:</h3>
-          <ul className="space-y-4 mb-6">
-            {benefits.map((benefit, index) => (
-              <li key={index} className="flex items-start gap-3">
-                <span className="text-primary font-bold mt-1">✅</span>
-                <p className="text-muted-foreground font-semibold">{benefit}</p>
-              </li>
-            ))}
-          </ul>
-           <ul className="space-y-4">
-            {bonuses.map((bonus, index) => (
-              <li key={index} className="flex items-start gap-3">
-                <span className="text-primary font-bold mt-1">➕</span>
-                <p className="text-muted-foreground">{bonus}</p>
-              </li>
-            ))}
-          </ul>
+        <div className="max-w-4xl mx-auto text-left mb-12">
+          <h3 className="text-3xl lg:text-4xl font-headline font-bold mb-8 text-center uppercase">O que você recebe na hora:</h3>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="space-y-4">
+              {benefits.map((benefit, index) => (
+                <Card key={index} className="p-4 bg-card shadow-md">
+                  <div className="flex items-center gap-4">
+                    <CheckIcon className="w-6 h-6 text-primary flex-shrink-0" />
+                    <p className="font-semibold text-card-foreground">{benefit}</p>
+                  </div>
+                </Card>
+              ))}
+            </div>
+            <div className="space-y-4">
+              {bonuses.map((bonus, index) => (
+                <Card key={index} className="p-4 bg-accent shadow-md">
+                     <div className="flex items-center gap-4">
+                        <span className="text-primary font-bold text-2xl flex-shrink-0">+</span>
+                        <p className="font-semibold text-accent-foreground">{bonus}</p>
+                    </div>
+                </Card>
+              ))}
+            </div>
+          </div>
         </div>
         
         <div className="flex flex-col items-center gap-4">
