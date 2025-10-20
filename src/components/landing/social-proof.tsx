@@ -16,11 +16,11 @@ export function SocialProof() {
     (img) => img.id === "client-testimonials-banner"
   );
   return (
-    <section className="py-16 lg:py-24 bg-secondary">
+    <section className="py-16 lg:py-24 bg-background">
       <div className="container mx-auto px-4 text-center">
         {image && (
           <div className="mb-8 flex justify-center">
-            <div className="w-full max-w-4xl">
+            <div className="w-full max-w-2xl">
               <Image
                 src={image.imageUrl}
                 alt={image.description}
@@ -38,7 +38,7 @@ export function SocialProof() {
           <ul className="space-y-4">
             {benefits.map((benefit, index) => (
               <li key={index} className="flex items-start gap-3">
-                <span className="text-primary font-bold mt-1">✅</span>
+                <span className="text-secondary font-bold mt-1">✅</span>
                 <p className="text-muted-foreground">{benefit}</p>
               </li>
             ))}
@@ -47,7 +47,7 @@ export function SocialProof() {
         
         <div className="flex flex-col items-center gap-4">
           <Link href="/#offer">
-            <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105">
+            <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105 uppercase">
               Quero minhas receitas
             </Button>
           </Link>
