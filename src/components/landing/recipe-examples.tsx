@@ -13,8 +13,8 @@ const recipes = [
     calories: "320 cal",
   },
   {
-    id: "pao-cremoso-gratinado",
-    name: "Salmão Grelhado com Brócolis",
+    id: "salada-caesar-fit",
+    name: "SALADA CAESAR FIT",
     time: "10 min",
     calories: "380 cal",
   },
