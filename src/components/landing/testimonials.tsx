@@ -13,8 +13,8 @@ const testimonials = [
   },
   {
     id: "testimonial-carla",
-    name: "Carla, 29 anos",
-    quote: "Nunca imaginei que uma pizza de frigideira pudesse ser tão leve! Estou amando a variedade e a praticidade. Finalmente sinto prazer em tomar café da manhã.",
+    name: "Juliana M.",
+    quote: "⭐⭐⭐⭐⭐ “Salvou meu almoço várias vezes!” Trabalho o dia todo e quase sempre acabava pedindo delivery… Agora em 5 min tenho um prato quente e delicioso. Parece mágica! 🍳🔥",
   },
 ];
 
