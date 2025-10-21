@@ -15,7 +15,7 @@ const recipes = [
   {
     id: "pao-cremoso-gratinado",
     name: "Salmão Grelhado com Brócolis",
-    time: "8 min",
+    time: "10 min",
     calories: "380 cal",
   },
   {
