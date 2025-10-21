@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Instagram } from "lucide-react";
 
 export function Footer() {
   return (
@@ -16,11 +17,17 @@ export function Footer() {
           </Link>
         </div>
         <p>© {new Date().getFullYear()} — Laura Costa Nutrição Funcional</p>
-        <p className="mt-2">
-            <Link href="https://www.instagram.com/chefebrunalopes" target="_blank" rel="noopener noreferrer" className="hover:text-secondary-foreground/80">
-                @chefebrunalopes
+        <div className="mt-4">
+            <Link 
+                href="https://www.instagram.com/chefebrunalopes" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="inline-flex items-center gap-2 text-lg font-bold hover:text-secondary-foreground/80 transition-colors"
+            >
+                <Instagram className="w-6 h-6" />
+                <span>@chefebrunalopes</span>
             </Link>
-        </p>
+        </div>
       </div>
     </footer>
   );
