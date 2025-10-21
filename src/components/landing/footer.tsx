@@ -16,6 +16,11 @@ export function Footer() {
           </Link>
         </div>
         <p>© {new Date().getFullYear()} — Laura Costa Nutrição Funcional</p>
+        <p className="mt-2">
+            <Link href="https://www.instagram.com/chefebrunalopes" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">
+                @chefebrunalopes
+            </Link>
+        </p>
       </div>
     </footer>
   );
