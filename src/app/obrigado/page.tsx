@@ -29,7 +29,7 @@ export default function ObrigadoPage() {
                  <p className="text-lg md:text-xl mb-4 font-semibold">
                     Clique no botão abaixo para entrar no nosso grupo VIP de alunas no WhatsApp e receber dicas exclusivas:
                 </p>
-                <Link href="https://chat.whatsapp.com/your-group-link" target="_blank" rel="noopener noreferrer">
+                <Link href="https://chat.whatsapp.com/FGqCHHUm2YkFkNmEpUI7aa?mode=wwt" target="_blank" rel="noopener noreferrer">
                   <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105 uppercase w-full bg-green-500 hover:bg-green-600 text-white">
                     Entrar no Grupo VIP
                   </Button>
