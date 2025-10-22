@@ -27,6 +27,7 @@ export function Footer() {
                 <Instagram className="w-6 h-6" />
                 <span>@chefebrunalopes</span>
             </Link>
+            <p className="text-sm mt-1">+3000 seguidoras</p>
         </div>
       </div>
     </footer>
