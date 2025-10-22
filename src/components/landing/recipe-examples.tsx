@@ -8,7 +8,7 @@ import Link from "next/link";
 const recipes = [
   {
     id: "panqueca-fit-banana",
-    name: "Frango com Crosta de Parmesão",
+    name: "FRANGO CROCANTE",
     time: "10 min",
     calories: "320 cal",
   },
