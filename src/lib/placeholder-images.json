@@ -13,16 +13,16 @@
       "imageHint": "woman smiling food"
     },
     {
+      "id": "salada-caesar-fit",
+      "description": "Healthy parmesan-crusted chicken.",
+      "imageUrl": "https://i.postimg.cc/cLC4zFf8/Salada-Caesar-Saudavel-2-1140x760.jpg",
+      "imageHint": "parmesan chicken"
+    },
+    {
       "id": "panqueca-fit-banana",
       "description": "Healthy parmesan-crusted chicken.",
       "imageUrl": "https://i.postimg.cc/T1jXyDmB/Frango-crocante-2.jpg",
       "imageHint": "parmesan chicken"
-    },
-    {
-      "id": "salada-caesar-fit",
-      "description": "A vibrant and healthy Caesar salad.",
-      "imageUrl": "https://i.postimg.cc/cLC4zFf8/Salada-Caesar-Saudavel-2-1140x760.jpg",
-      "imageHint": "healthy meal plate"
     },
     {
       "id": "shake-detox-energizante",
@@ -99,7 +99,7 @@
     {
       "id": "client-testimonials-banner",
       "description": "Banner with testimonials from happy clients",
-      "imageUrl": "https://i.postimg.cc/5N5btX2H/Chat-GPT-Image-21-de-out-de-2025-15-51-27.png",
+      "imageUrl": "https://i.postimg.cc/Dyxp5hC6/Pizza-que-seca-barriga.png",
       "imageHint": "client testimonials"
     },
     {
