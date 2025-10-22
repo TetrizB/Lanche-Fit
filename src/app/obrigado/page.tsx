@@ -67,14 +67,14 @@ export default function ObrigadoPage() {
                   <p className="text-2xl text-muted-foreground mb-2">
                     De <span className="line-through">R$97,00</span> por apenas:
                   </p>
-                  <p className="text-5xl font-headline font-bold text-primary mb-6">R$47,00</p>
+                  <p className="text-5xl font-headline font-bold text-primary mb-6">R$29,90</p>
                   <Link href="https://link-de-checkout-do-upsell.com" target="_blank" rel="noopener noreferrer">
                     <Button size="lg" className="text-xl font-bold px-12 py-8 w-full md:w-auto transition-transform hover:scale-105 shadow-lg uppercase">
                       Sim, quero acelerar meus resultados!
                     </Button>
                   </Link>
                    <p className="text-sm text-muted-foreground mt-4">
-                    Clique aqui e adicione ao seu pedido com <span className="font-bold">50% de desconto</span>. Oferta única!
+                    Clique aqui e adicione ao seu pedido com um <span className="font-bold">super desconto</span>. Oferta única!
                   </p>
                 </CardContent>
               </Card>
