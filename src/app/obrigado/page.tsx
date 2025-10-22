@@ -9,7 +9,7 @@ import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export default function ObrigadoPage() {
-  const upsellImage = PlaceHolderImages.find((img) => img.id === "product-ebook-cover");
+  const upsellImage = PlaceHolderImages.find((img) => img.id === "upsell-desafio-30-dias");
 
   return (
     <div className="flex flex-col min-h-screen bg-background">
@@ -56,11 +56,11 @@ export default function ObrigadoPage() {
                     <div className="mb-8">
                       <Image
                         src={upsellImage.imageUrl}
-                        alt="Desafio 30 Dias"
+                        alt={upsellImage.description}
                         width={300}
                         height={300}
                         className="rounded-lg shadow-lg mx-auto"
-                        data-ai-hint="ebook cover"
+                        data-ai-hint={upsellImage.imageHint}
                       />
                     </div>
                   )}
