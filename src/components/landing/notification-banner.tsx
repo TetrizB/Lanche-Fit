@@ -15,7 +15,7 @@ export function NotificationBanner() {
   }, []);
 
   return (
-    <div className="bg-secondary text-secondary-foreground text-center p-2 font-bold uppercase text-sm md:text-base">
+    <div className="bg-secondary text-secondary-foreground text-center p-2 font-bold uppercase text-sm md:text-base sticky top-0 z-50">
       {currentDate && `Oferta válida apenas hoje: ${currentDate}`}
     </div>
   );

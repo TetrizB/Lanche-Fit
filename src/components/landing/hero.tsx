@@ -51,7 +51,7 @@ export function Hero() {
                 <Link href="/#offer">
                   <Button
                     size="lg"
-                    className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105 uppercase"
+                    className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105 uppercase animate-pulse"
                   >
                     Quero comer bem agora
                   </Button>
