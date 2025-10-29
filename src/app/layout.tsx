@@ -3,6 +3,7 @@ import { Bebas_Neue, Inter } from 'next/font/google';
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import Script from "next/script";
+import { NotificationBanner } from "@/components/landing/notification-banner";
 
 const bebasNeue = Bebas_Neue({
   subsets: ['latin'],
@@ -43,6 +44,7 @@ export default function RootLayout({
         ></Script>
       </head>
       <body className="font-body antialiased">
+        <NotificationBanner />
         <Script id="fb-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
