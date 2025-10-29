@@ -13,8 +13,30 @@ export function Hero() {
   return (
     <section className="relative w-full">
       <Background>
-        <div className="container mx-auto px-4 h-[90vh] min-h-[700px] flex items-center justify-center">
+        <div className="container mx-auto px-4 pt-32 pb-16 md:py-0 md:h-[90vh] md:min-h-[700px] flex items-center justify-center">
           <div className="grid md:grid-cols-2 gap-12 items-center">
+             <div className="flex md:hidden justify-center items-center mb-8">
+              <div className="relative">
+                {ebookMockup && (
+                  <Image
+                    src={ebookMockup.imageUrl}
+                    alt={ebookMockup.description}
+                    width={300}
+                    height={300}
+                    className="rounded-lg shadow-2xl"
+                    data-ai-hint={ebookMockup.imageHint}
+                  />
+                )}
+                <div className="absolute -top-5 -left-5 flex flex-col gap-3">
+                   <Badge className="text-base font-bold uppercase backdrop-blur-sm bg-primary/80 border-2 border-primary-foreground/50 shadow-lg">
+                     <BookOpen className="w-5 h-5 mr-2"/> +200 Receitas
+                  </Badge>
+                   <Badge variant="destructive" className="text-base font-bold uppercase backdrop-blur-sm bg-secondary/80 border-2 border-primary-foreground/50 shadow-lg">
+                     <Clock className="w-5 h-5 mr-2" /> Em até 10 minutos
+                  </Badge>
+                </div>
+              </div>
+            </div>
             <div className="text-center md:text-left">
               <h1 className="text-5xl md:text-7xl font-headline tracking-wider uppercase text-foreground mb-4">
                 Fast Fit: Comida Boa e Leve em 10 Minutos
