@@ -39,13 +39,13 @@ export function Hero() {
             </div>
             <div className="text-center md:text-left">
               <h1 className="text-5xl md:text-7xl font-headline tracking-wider uppercase text-foreground mb-4">
-                Fast Fit: Comida Boa e Leve em 10 Minutos
+                Fast Fit: Coma bem em 10 minutos
               </h1>
+              <p className="text-lg md:text-xl mb-2 font-bold uppercase">
+                Mesmo que odeie cozinhar (ou salada)
+              </p>
               <p className="text-lg md:text-xl mb-8 font-medium">
-                Prepare refeições leves, rápidas e com gosto real —{" "}
-                <span className="uppercase font-bold">sem castigo</span>. Sem
-                dieta chata, sem marmita sem graça, sem fome. Apenas sabor e
-                praticidade — mesmo que odeie salada.
+                Você chega cansado e pensa em pedir delivery. Mas em 10 minutos, dá pra preparar algo leve, gostoso e real, sem castigo, sem dieta sem graça e sem gastar mais.
               </p>
               <div className="flex flex-col items-center md:items-start gap-4">
                 <Link href="/#offer">
@@ -53,7 +53,7 @@ export function Hero() {
                     size="lg"
                     className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105 uppercase"
                   >
-                    Quero minhas receitas agora
+                    Quero comer bem agora
                   </Button>
                 </Link>
                 <Badge variant="secondary" className="uppercase">
