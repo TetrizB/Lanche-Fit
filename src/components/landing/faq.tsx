@@ -7,24 +7,28 @@ import {
   
   const faqItems = [
     {
-      question: "Preciso saber cozinhar?",
-      answer: "Não. Tudo é prático e explicado em passos curtos, com tempo real de preparo. As receitas são para iniciantes.",
+      question: "Preciso ter alguma experiência na cozinha?",
+      answer: "Absolutamente não! O Fast Fit foi criado para iniciantes. As receitas são simples, diretas e com um passo a passo claro que qualquer pessoa consegue seguir, mesmo que nunca tenha fritado um ovo.",
     },
     {
-      question: "Preciso de ingredientes caros?",
-      answer: "Não. A maioria das receitas usa ingredientes simples e baratos que você já tem em casa ou encontra fácil.",
+      question: "Os ingredientes são caros ou difíceis de encontrar?",
+      answer: "De forma alguma. A base do Fast Fit são ingredientes acessíveis, que você encontra em qualquer supermercado. A ideia é economizar tempo e dinheiro, não o contrário.",
     },
     {
-      question: "Funciona pra almoço e jantar?",
-      answer: "Sim! São receitas versáteis para qualquer refeição do seu dia, do café da manhã ao jantar.",
+      question: "Funciona para quem mora sozinho ou tem família?",
+      answer: "Sim, é perfeito para os dois cenários! As receitas são fáceis de adaptar. Se você mora sozinho, terá refeições rápidas e sem desperdício. Se tem família, pode simplesmente dobrar as quantidades para servir todo mundo.",
     },
     {
-      question: "Como recebo o acesso?",
-      answer: "O acesso é imediato! Assim que o pagamento for confirmado, você receberá tudo no seu e-mail e também via WhatsApp.",
+      question: "As receitas servem para almoço, jantar e lanches?",
+      answer: "Sim! Você encontrará opções para todas as refeições do dia: café da manhã, almoço, jantar e lanches práticos para levar na bolsa. É um guia completo para sua rotina.",
     },
     {
-      question: "E se eu não gostar?",
-      answer: "Risco zero! Você tem 7 dias para testar. Se não amar, é só pedir o reembolso e devolvemos 100% do seu dinheiro.",
+      question: "Como funciona o acesso ao material?",
+      answer: "O acesso é imediato. Assim que seu pagamento for confirmado, você receberá um e-mail e uma mensagem no WhatsApp com os links para baixar todo o material. Simples e rápido.",
+    },
+    {
+      question: "E se eu não gostar? Qual é a garantia?",
+      answer: "Seu risco é zero. Você tem 7 dias de garantia incondicional. Se por qualquer motivo você não amar as receitas, basta nos enviar um e-mail e nós devolvemos 100% do seu dinheiro, sem perguntas.",
     },
   ];
   
@@ -51,4 +55,3 @@ import {
       </section>
     );
   }
-  
