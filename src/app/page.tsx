@@ -3,6 +3,7 @@ import { Hero } from "@/components/landing/hero";
 import dynamic from 'next/dynamic';
 
 const BigIdea = dynamic(() => import('@/components/landing/big-idea').then(mod => mod.BigIdea));
+const ProductDemo = dynamic(() => import('@/components/landing/product-demo').then(mod => mod.ProductDemo));
 const TestimonialsCarousel = dynamic(() => import('@/components/landing/testimonials-carousel').then(mod => mod.TestimonialsCarousel));
 const Features = dynamic(() => import('@/components/landing/features').then(mod => mod.Features));
 const SocialProof = dynamic(() => import('@/components/landing/social-proof').then(mod => mod.SocialProof));
@@ -26,6 +27,7 @@ export default function Home() {
       <main className="flex-grow">
         <Hero />
         <BigIdea />
+        <ProductDemo />
         <TestimonialsCarousel />
         <Features />
         <SocialProof />
