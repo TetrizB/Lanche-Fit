@@ -73,6 +73,12 @@
       "imageHint": "strawberry mousse"
     },
     {
+      "id": "low-carb-recipes",
+      "description": "A low carb meal with salmon and asparagus.",
+      "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=2080&auto=format&fit=crop",
+      "imageHint": "low carb meal"
+    },
+    {
       "id": "sucos-detox",
       "description": "A glass of green detox juice.",
       "imageUrl": "https://i.postimg.cc/2Sfxvmn9/Receitas-de-Suco-Detox.webp",

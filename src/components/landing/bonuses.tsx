@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { CakeSlice, Box, GlassWater } from "lucide-react";
+import { Salad, TestTube, Trophy } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
@@ -7,25 +7,25 @@ import Image from "next/image";
 
 const bonuses = [
   {
-    icon: <CakeSlice className="w-10 h-10 text-primary" />,
-    title: "200 Sobremesas Zero Açúcar",
-    description: "Para matar a vontade de doce sem culpa!",
+    icon: <Salad className="w-10 h-10 text-primary" />,
+    title: "100 Receitas Low Carb",
+    description: "Para acelerar a queima de gordura com pratos deliciosos e de baixo carboidrato.",
     tag: "Grátis!",
-    imageId: "sobremesas-zero-acucar",
+    imageId: "low-carb-recipes",
   },
   {
-    icon: <Box className="w-10 h-10 text-primary" />,
-    title: "30 Marmitas Fit para Congelar",
-    description: "Planeje sua semana e economize tempo.",
-    tag: "Grátis!",
-    imageId: "marmitas-fit",
-  },
-  {
-    icon: <GlassWater className="w-10 h-10 text-primary" />,
-    title: "60 Sucos Detox Saborosos",
-    description: "Para desintoxicar e dar mais energia ao seu dia.",
+    icon: <TestTube className="w-10 h-10 text-primary" />,
+    title: "Mini Guia Detox 3 Dias",
+    description: "Um plano rápido para desinchar e renovar sua energia em apenas 3 dias.",
     tag: "Grátis!",
     imageId: "sucos-detox",
+  },
+  {
+    icon: <Trophy className="w-10 h-10 text-primary" />,
+    title: "Desafio 7 Dias Fast Fit",
+    description: "Um cronograma para você seguir e ver resultados visíveis na primeira semana.",
+    tag: "Grátis!",
+    imageId: "marmitas-fit",
   },
 ];
 
@@ -37,7 +37,7 @@ export function Bonuses() {
           E não é só isso! Leve 3 Bônus Exclusivos
         </h2>
         <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Comprando hoje o e-book "200 Cafés da Manhã de Nutri", você recebe gratuitamente mais 3 materiais completos.
+          Comprando hoje o acesso ao Fast Fit, você recebe gratuitamente mais 3 materiais completos para turbinar seus resultados.
         </p>
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {bonuses.map((bonus, index) => {
@@ -73,7 +73,7 @@ export function Bonuses() {
           })}
         </div>
         <p className="mb-12 text-lg font-semibold">
-          Somando <span className="text-primary-foreground font-bold">R$73,00 em bônus</span> totalmente gratuitos — só hoje!
+          Garanta seus bônus e comece hoje mesmo a sua transformação!
         </p>
         <Link href="/#offer">
           <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105 uppercase">

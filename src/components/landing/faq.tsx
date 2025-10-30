@@ -8,23 +8,23 @@ import {
   const faqItems = [
     {
       question: "Preciso saber cozinhar?",
-      answer: "Não. Tudo é prático e explicado em passos curtos, com tempo real de preparo.",
+      answer: "Não. Tudo é prático e explicado em passos curtos, com tempo real de preparo. As receitas são para iniciantes.",
     },
     {
-      question: "Preciso de muitos ingredientes?",
-      answer: "Não. A maioria das receitas usa até 3 itens comuns de geladeira.",
+      question: "Preciso de ingredientes caros?",
+      answer: "Não. A maioria das receitas usa ingredientes simples e baratos que você já tem em casa ou encontra fácil.",
     },
     {
       question: "Funciona pra almoço e jantar?",
-      answer: "Sim. São receitas adaptáveis pra qualquer refeição.",
+      answer: "Sim! São receitas versáteis para qualquer refeição do seu dia, do café da manhã ao jantar.",
     },
     {
-      question: "Posso fazer no trabalho?",
-      answer: "Sim. Várias opções são pensadas pra micro-ondas e preparo rápido.",
+      question: "Como recebo o acesso?",
+      answer: "O acesso é imediato! Assim que o pagamento for confirmado, você receberá tudo no seu e-mail e também via WhatsApp.",
     },
     {
       question: "E se eu não gostar?",
-      answer: "Você tem 7 dias pra testar. Se não amar, seu dinheiro volta.",
+      answer: "Risco zero! Você tem 7 dias para testar. Se não amar, é só pedir o reembolso e devolvemos 100% do seu dinheiro.",
     },
   ];
   

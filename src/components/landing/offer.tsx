@@ -28,17 +28,20 @@ export function Offer() {
           )}
           <CardHeader className="pt-0">
             <h2 className="text-3xl font-headline tracking-wider uppercase mb-4">
-              Fast Fit: Comida Boa e Leve em 10 Minutos
+              Fast Fit: Receitas que salvam sua rotina
             </h2>
             <p className="text-xl font-semibold mb-2 text-primary uppercase">
-              Acesso completo e imediato
+              Transformação real em poucos dias
             </p>
             <p className="text-2xl text-muted-foreground mb-4">
-              <span className="line-through">De R$129,00</span> por apenas:
+              <span className="line-through">De R$47,00</span> por apenas:
             </p>
             <CardTitle className="text-5xl md:text-7xl font-headline font-bold">
               R$14,90
             </CardTitle>
+             <p className="text-sm text-muted-foreground mt-2">
+              ou 2x de R$7,87
+            </p>
           </CardHeader>
           <CardContent>
             <Badge
@@ -52,10 +55,13 @@ export function Offer() {
                 size="lg"
                 className="text-xl font-bold px-12 py-8 w-full md:w-auto transition-transform hover:scale-105 shadow-lg uppercase animate-pulse"
               >
-                Quero comer bem sem sofrer!
+                Quero receber o Fast Fit agora
               </Button>
             </Link>
-            <div className="mt-8 flex items-center justify-center gap-2 text-muted-foreground">
+             <p className="text-sm text-muted-foreground mt-4 font-semibold">
+              Mais de 200 receitas por menos de R$0,08 cada
+            </p>
+            <div className="mt-4 flex items-center justify-center gap-2 text-muted-foreground">
               <Lock className="w-4 h-4" />
               <span>Pagamento 100% seguro</span>
             </div>

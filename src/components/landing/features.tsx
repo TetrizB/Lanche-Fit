@@ -1,7 +1,7 @@
 import {
-  Flame,
-  Clock,
-  Sparkles,
+  Heart,
+  Zap,
+  Smile,
   Grape,
   CookingPot,
   ThumbsUp,
@@ -11,24 +11,24 @@ import Link from "next/link";
 
 const features = [
   {
-    icon: <Clock className="w-8 h-8 text-primary" />,
-    text: "Preparo em até 10 minutos",
+    icon: <Smile className="w-8 h-8 text-primary" />,
+    text: "Comer com prazer e sem culpa",
   },
   {
-    icon: <Sparkles className="w-8 h-8 text-primary" />,
-    text: "Ingredientes fáceis de achar",
+    icon: <Zap className="w-8 h-8 text-primary" />,
+    text: "Se sentir mais leve e com energia",
   },
   {
-    icon: <Flame className="w-8 h-8 text-primary" />,
-    text: "Receitas com até 400 calorias",
+    icon: <Heart className="w-8 h-8 text-primary" />,
+    text: "Emagrecer sem dieta maluca",
   },
   {
     icon: <Grape className="w-8 h-8 text-primary" />,
-    text: "Ricas em nutrientes e fibras",
+    text: "Refeições nutritivas e baratas",
   },
   {
     icon: <ThumbsUp className="w-8 h-8 text-primary" />,
-    text: "Sabor de comida de verdade",
+    text: "Ingredientes simples que você tem em casa",
   },
   {
     icon: <CookingPot className="w-8 h-8 text-primary" />,
@@ -41,7 +41,7 @@ export function Features() {
     <section className="py-16 lg:py-24 bg-secondary">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl lg:text-5xl font-headline tracking-wider uppercase mb-12 text-secondary-foreground">
-          O Que Você Vai Encontrar no Fast Fit
+          O que é o FAST FIT?
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-center mb-12">
           {features.map((feature, index) => (
