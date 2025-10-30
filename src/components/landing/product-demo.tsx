@@ -29,7 +29,7 @@ export function ProductDemo() {
           >
             {showVideo ? (
               <iframe
-                src="https://www.youtube.com/embed/FyTuJUhWFNI?autoplay=1&rel=0&showinfo=0&controls=0"
+                src="https://www.youtube.com/embed/FyTuJUhWFNI?autoplay=1&rel=0&controls=0"
                 title="Demonstração Fast Fit"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
