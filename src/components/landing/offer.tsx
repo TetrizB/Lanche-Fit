@@ -37,7 +37,7 @@ export function Offer() {
               <span className="line-through">De R$129,00</span> por apenas:
             </p>
             <CardTitle className="text-5xl md:text-7xl font-headline font-bold">
-              R$29,90
+              R$14,90
             </CardTitle>
           </CardHeader>
           <CardContent>
