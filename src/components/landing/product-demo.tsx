@@ -12,8 +12,11 @@ export function ProductDemo() {
         <div className="max-w-4xl mx-auto">
           <div className="relative overflow-hidden rounded-lg shadow-2xl" style={{ paddingBottom: "56.25%" }}>
             <iframe
-              src="https://www.vid4me.com/video/BouNqwiE"
+              src="https://www.youtube.com/embed/FyTuJUhWFNI"
+              title=""
               frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
               className="absolute top-0 left-0 w-full h-full"
             ></iframe>
