@@ -1,6 +1,7 @@
 import { Header } from "@/components/landing/header";
 import { Hero } from "@/components/landing/hero";
 import dynamic from 'next/dynamic';
+import { SocialProofToast } from "@/components/landing/social-proof-toast";
 
 const BigIdea = dynamic(() => import('@/components/landing/big-idea').then(mod => mod.BigIdea));
 const ProductDemo = dynamic(() => import('@/components/landing/product-demo').then(mod => mod.ProductDemo));
@@ -43,6 +44,7 @@ export default function Home() {
         <FinalCta />
       </main>
       <Footer />
+      <SocialProofToast />
     </div>
   );
 }
