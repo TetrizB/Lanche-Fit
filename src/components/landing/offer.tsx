@@ -40,7 +40,7 @@ export function Offer() {
               R$19,90
             </CardTitle>
              <p className="text-sm text-muted-foreground mt-2">
-              ou 2x de R$10,47
+              ou 2x de R$10,35
             </p>
           </CardHeader>
           <CardContent>
