@@ -37,10 +37,10 @@ export function Offer() {
               <span className="line-through">De R$47,00</span> por apenas:
             </p>
             <CardTitle className="text-5xl md:text-7xl font-headline font-bold">
-              R$14,90
+              R$19,90
             </CardTitle>
              <p className="text-sm text-muted-foreground mt-2">
-              ou 2x de R$7,87
+              ou 2x de R$10,47
             </p>
           </CardHeader>
           <CardContent>
@@ -59,7 +59,7 @@ export function Offer() {
               </Button>
             </Link>
              <p className="text-sm text-muted-foreground mt-4 font-semibold">
-              Mais de 200 receitas por menos de R$0,08 cada
+              Mais de 200 receitas por menos de R$0,10 cada
             </p>
             <div className="mt-4 flex items-center justify-center gap-2 text-muted-foreground">
               <Lock className="w-4 h-4" />
