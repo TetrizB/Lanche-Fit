@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Link from "next/link";
+import { Gift } from "lucide-react";
 
 export function FinalCta() {
   const bgImage = PlaceHolderImages.find(
@@ -22,15 +23,15 @@ export function FinalCta() {
       <div className="absolute inset-0 bg-background/80" />
       <div className="relative container mx-auto px-4 z-10">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-6xl font-headline tracking-wider uppercase mb-4">
-            Comece a transformar seu corpo e sua rotina hoje
+          <h2 className="text-4xl md:text-6xl font-headline tracking-wider mb-4">
+            Comece a brilhar hoje mesmo!
           </h2>
           <p className="text-xl mb-8 text-muted-foreground">
-            Receitas criadas por uma nutricionista — com sabor, saúde e praticidade em <span className="font-bold">10 minutos</span>.
+            Receitas com sabor, saúde e a praticidade que você merece. Tudo em <span className="font-bold">10 minutos</span>.
           </p>
           <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8" target="_blank" rel="noopener noreferrer">
-            <Button size="lg" className="text-xl font-bold px-12 py-8 w-full md:w-auto transition-transform hover:scale-105 shadow-lg uppercase animate-pulse">
-              Sim, quero meu acesso agora!
+            <Button className="cta-button text-xl px-12 py-8 w-full md:w-auto shadow-lg">
+              <Gift className="mr-2" /> Sim, Quero Meu Presente!
             </Button>
           </Link>
         </div>

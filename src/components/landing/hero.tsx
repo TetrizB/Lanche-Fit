@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Background } from "../ui/background-components";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { Clock, BookOpen } from "lucide-react";
+import { Clock, BookOpen, Gift } from "lucide-react";
 
 export function Hero() {
   const ebookMockup = PlaceHolderImages.find(
@@ -38,22 +38,19 @@ export function Hero() {
               </div>
             </div>
             <div className="text-center md:text-left">
-              <h1 className="text-5xl md:text-7xl font-headline tracking-wider uppercase text-foreground mb-4">
-                Fast Fit: Coma bem em 10 minutos
+              <h1 className="text-5xl md:text-7xl font-headline tracking-wider text-foreground mb-4">
+                O Presente Perfeito Para Você Brilhar Neste Natal
               </h1>
               <p className="text-lg md:text-xl mb-2 font-bold uppercase">
-                Mesmo que odeie cozinhar (ou salada)
+                Receitas rápidas, saudáveis e deliciosas!
               </p>
               <p className="text-lg md:text-xl mb-8 font-medium">
-                Você chega cansado e pensa em pedir delivery. Mas em 10 minutos, dá pra preparar algo leve, gostoso e real, sem castigo, sem dieta sem graça e sem gastar mais.
+                Surpreenda a todos nas festas com pratos incríveis e saudáveis que parecem ter levado horas, mas ficam prontos em minutos.
               </p>
               <div className="flex flex-col items-center md:items-start gap-4">
                 <Link href="/#offer">
-                  <Button
-                    size="lg"
-                    className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105 uppercase animate-pulse"
-                  >
-                    Quero comer bem agora
+                  <Button className="cta-button text-lg px-8 py-6">
+                    <Gift className="mr-2"/> Quero meu presente de Natal!
                   </Button>
                 </Link>
                 <Badge variant="secondary" className="uppercase">

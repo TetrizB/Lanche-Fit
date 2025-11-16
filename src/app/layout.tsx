@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
-import { Bebas_Neue, Inter } from 'next/font/google';
+import { Dancing_Script, Quicksand } from 'next/font/google';
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import Script from "next/script";
 import { NotificationBanner } from "@/components/landing/notification-banner";
 
-const bebasNeue = Bebas_Neue({
+const dancingScript = Dancing_Script({
   subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-bebas-neue',
+  weight: ['400', '700'],
+  variable: '--font-headline',
   display: 'swap',
 });
 
-const inter = Inter({
+const quicksand = Quicksand({
   subsets: ['latin'],
   weight: ['400', '600', '700'],
-  variable: '--font-inter',
+  variable: '--font-body',
   display: 'swap',
 });
 
@@ -31,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className={`!scroll-smooth ${bebasNeue.variable} ${inter.variable}`}>
+    <html lang="pt-BR" className={`!scroll-smooth ${dancingScript.variable} ${quicksand.variable}`}>
       <head>
         <link rel="icon" href="https://i.postimg.cc/JD758kH0/Design-sem-nome-7.png" type="image/png" />
         <Script

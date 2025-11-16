@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Lock } from "lucide-react";
+import { Lock, Gift } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
@@ -27,11 +27,11 @@ export function Offer() {
             </div>
           )}
           <CardHeader className="pt-0">
-            <h2 className="text-3xl font-headline tracking-wider uppercase mb-4">
-              Fast Fit: Receitas que salvam sua rotina
+            <h2 className="text-3xl font-headline tracking-wider mb-4">
+              Um Mimo Especial Para Você Neste Natal!
             </h2>
             <p className="text-xl font-semibold mb-2 text-primary uppercase">
-              Transformação real em poucos dias
+              Oferta de Natal Exclusiva!
             </p>
             <p className="text-2xl text-muted-foreground mb-4">
               <span className="line-through">De R$47,00</span> por apenas:
@@ -48,14 +48,11 @@ export function Offer() {
               variant="destructive"
               className="mb-8 text-base font-semibold uppercase"
             >
-              Oferta por tempo limitado!
+              A oferta acaba com o Natal!
             </Badge>
             <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8" target="_blank" rel="noopener noreferrer">
-              <Button
-                size="lg"
-                className="text-xl font-bold px-12 py-8 w-full md:w-auto transition-transform hover:scale-105 shadow-lg uppercase animate-pulse"
-              >
-                Quero receber o Fast Fit agora
+              <Button className="cta-button text-xl px-12 py-8 w-full md:w-auto shadow-lg">
+                <Gift className="mr-2" /> Quero Meu Presente!
               </Button>
             </Link>
              <p className="text-sm text-muted-foreground mt-4 font-semibold">
