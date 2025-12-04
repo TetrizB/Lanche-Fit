@@ -31,7 +31,7 @@ export function FinalCta() {
           </p>
           <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8" target="_blank" rel="noopener noreferrer">
             <Button className="cta-button text-xl px-12 py-8 w-full md:w-auto shadow-lg">
-              <Gift className="mr-2" /> Sim, Quero Meu Presente!
+              <Gift className="mr-2" /> Sim, Quero Acesso Imediato por R$1,99/mês!
             </Button>
           </Link>
         </div>

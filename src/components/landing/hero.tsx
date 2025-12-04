@@ -39,7 +39,7 @@ export function Hero() {
             </div>
             <div className="text-center md:text-left">
               <h1 className="text-5xl md:text-7xl font-headline tracking-wider text-foreground mb-4">
-                O Presente Perfeito Para Você Brilhar Neste Natal
+                O Presente de Natal que Transforma sua Cozinha e seu Corpo em Minutos
               </h1>
               <p className="text-lg md:text-xl mb-2 font-bold uppercase">
                 Receitas rápidas, saudáveis e deliciosas!
@@ -54,7 +54,7 @@ export function Hero() {
                   </Button>
                 </Link>
                 <Badge variant="secondary" className="uppercase">
-                  Acesso imediato + garantia de 7 dias
+                  Acesso imediato + Garantia Blindada de 7 dias
                 </Badge>
               </div>
             </div>

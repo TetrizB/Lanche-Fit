@@ -12,15 +12,14 @@ export function Guarantee() {
           </div>
           <div className="md:col-span-2">
             <h2 className="text-3xl lg:text-4xl font-headline tracking-wider uppercase mb-4">
-              Sua Satisfação ou Seu Dinheiro de Volta
+              Sua Garantia Blindada de 7 Dias
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Teste por <span className="font-bold">7 dias</span> e se não gostar, devolvemos seu dinheiro na hora e
-              você ainda fica com o produto! O risco é todo nosso.
+             Ou você ama as receitas e transforma sua rotina, ou nós devolvemos 100% do seu dinheiro com um único e-mail, sem perguntas. O risco é todo nosso.
             </p>
              <Link href="/#offer">
               <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105 uppercase">
-                Quero minhas receitas
+                Comprar com Risco Zero
               </Button>
             </Link>
           </div>

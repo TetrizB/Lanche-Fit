@@ -16,11 +16,11 @@ export function BigIdea() {
               A revolução da comida saudável (e gostosa de verdade!)
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Coma bem sem abrir mão do sabor com refeições feitas em até 10 minutos. Chega de sofrer com dietas restritivas e comida sem graça. É hora de transformar sua relação com a alimentação, comendo de forma prática, leve e prazerosa todos os dias.
+              Por anos, nos disseram que comida saudável era sinônimo de pratos sem graça e horas na cozinha. A culpa não é sua se você desistiu. O problema são os métodos complicados. É por isso que criamos o <strong>Método Sabor Leve</strong>: a revolução que combina ingredientes simples com técnicas de chef para criar pratos deliciosos e nutritivos em menos de 10 minutos. É a sua liberdade de comer bem sem sacrifícios.
             </p>
             <Link href="/#offer">
               <Button size="lg" className="text-lg font-semibold px-8 py-6 transition-transform hover:scale-105 uppercase">
-                Quero minhas receitas
+                Quero o Método Sabor Leve
               </Button>
             </Link>
           </div>

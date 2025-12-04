@@ -33,14 +33,14 @@ export function Offer() {
             <p className="text-xl font-semibold mb-2 text-primary uppercase">
               Oferta de Natal Exclusiva!
             </p>
-            <p className="text-2xl text-muted-foreground mb-4">
-              <span className="line-through">De R$47,00</span> por apenas:
+            <p className="text-lg text-muted-foreground mb-4">
+              Acesso completo ao Fast Fit <span className="line-through">(R$47)</span> + 3 Bônus <span className="line-through">(R$97)</span>. <br/> De <span className="line-through">R$144,00</span> por apenas:
             </p>
             <CardTitle className="text-5xl md:text-7xl font-headline font-bold">
-              R$19,90
+              12x de R$1,99
             </CardTitle>
              <p className="text-sm text-muted-foreground mt-2">
-              ou 2x de R$10,35
+              ou R$19,90 à vista
             </p>
           </CardHeader>
           <CardContent>
@@ -52,11 +52,11 @@ export function Offer() {
             </Badge>
             <Link href="https://www.ggcheckout.com/checkout/v2/3Z4BhtZ41ngEPpeO9rC8" target="_blank" rel="noopener noreferrer">
               <Button className="cta-button text-xl px-12 py-8 w-full md:w-auto shadow-lg">
-                <Gift className="mr-2" /> Quero Meu Presente!
+                <Gift className="mr-2" /> Quero Acesso Imediato por R$1,99/mês!
               </Button>
             </Link>
              <p className="text-sm text-muted-foreground mt-4 font-semibold">
-              Mais de 200 receitas por menos de R$0,10 cada
+              Menos de R$0,07 por dia para transformar sua alimentação!
             </p>
             <div className="mt-4 flex items-center justify-center gap-2 text-muted-foreground">
               <Lock className="w-4 h-4" />
